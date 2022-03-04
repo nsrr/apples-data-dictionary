@@ -1,0 +1,9 @@
+{
+  "id": "desatindextot",
+  "display_name": "PSG Desaturation Index",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

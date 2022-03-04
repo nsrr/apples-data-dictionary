@@ -1,0 +1,22 @@
+[
+  {
+    "value": "Disqualified",
+    "display_name": "Disqualified",
+    "description": ""
+  },
+  {
+    "value": "Dropped",
+    "display_name": "Dropped",
+    "description": ""
+  },
+  {
+    "value": "Excluded",
+    "display_name": "Excluded",
+    "description": ""
+  },
+  {
+    "value": "Withdrawn",
+    "display_name": "Withdrawn",
+    "description": ""
+  }
+]

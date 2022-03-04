@@ -1,0 +1,9 @@
+{
+  "id": "syncopemedhxhp",
+  "display_name": "Syncope from HP Medical History:  (0=None, 1=Resolved, 2=Ongoing)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

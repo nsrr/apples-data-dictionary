@@ -1,0 +1,9 @@
+{
+  "id": "sleepeffpsg",
+  "display_name": "PSG Sleep Efficiency (%)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

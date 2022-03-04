@@ -1,0 +1,9 @@
+{
+  "id": "mwtsleeplatencyt4",
+  "display_name": "Maintenance of Wakefullness Test (MWT) Sleep Latency Trial 4 (min)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "MWT"
+  ]
+}

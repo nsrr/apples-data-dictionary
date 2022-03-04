@@ -1,0 +1,9 @@
+{
+  "id": "totalcorrall",
+  "display_name": "PASAT Total Correct Responses - All 4 trials combined",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PASAT"
+  ]
+}

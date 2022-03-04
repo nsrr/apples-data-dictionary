@@ -1,0 +1,9 @@
+{
+  "id": "factorv",
+  "display_name": "Profiles of Moods States (POMS) Factor V - Vigor-Activity",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

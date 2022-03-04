@@ -1,0 +1,9 @@
+{
+  "id": "esstotalscoreqc",
+  "display_name": "ESS Total Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "ESS"
+  ]
+}

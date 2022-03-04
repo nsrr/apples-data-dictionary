@@ -1,0 +1,9 @@
+{
+  "id": "swmthlavertcorrect3",
+  "display_name": "Sustained Working Memory Test (SWMT) n-back higher level average reaction time for correct response - Afternoon Administration",
+  "description": "SWMT Missing Data Codes 3-16-09",
+  "type": "numeric",
+  "labels": [
+    "SWMT"
+  ]
+}

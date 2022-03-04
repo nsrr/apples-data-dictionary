@@ -1,0 +1,9 @@
+{
+  "id": "tstpsg",
+  "display_name": "PSG Total Sleep Time (min)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

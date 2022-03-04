@@ -1,0 +1,9 @@
+{
+  "id": "chestlungspexhp",
+  "display_name": "Body System: Chest/Lungs from HP Physical Exam (0=Normal, 1=Abnormal, 2=Not Done)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "appleid",
+  "display_name": "APPLES Participant ID",
+  "description": "",
+  "type": "identifier",
+  "labels": [
+    "ID Table"
+  ]
+}

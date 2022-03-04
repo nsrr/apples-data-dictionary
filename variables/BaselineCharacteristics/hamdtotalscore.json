@@ -1,0 +1,9 @@
+{
+  "id": "hamdtotalscore",
+  "display_name": "Hamilton Rating Scale for Depression (HAM-D) Total Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HAMD"
+  ]
+}

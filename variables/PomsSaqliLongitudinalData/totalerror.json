@@ -1,0 +1,9 @@
+{
+  "id": "totalerror",
+  "display_name": "Profiles of Moods States (POMS) Total Missing Questions on All Factors",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

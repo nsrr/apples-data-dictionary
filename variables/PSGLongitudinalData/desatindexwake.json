@@ -1,0 +1,9 @@
+{
+  "id": "desatindexwake",
+  "display_name": "PSG Desaturation Index - WAKE",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

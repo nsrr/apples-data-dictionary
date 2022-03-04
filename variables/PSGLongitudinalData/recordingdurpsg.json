@@ -1,0 +1,9 @@
+{
+  "id": "recordingdurpsg",
+  "display_name": "PSG Total Recording Time",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

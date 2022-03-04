@@ -1,0 +1,9 @@
+{
+  "id": "arousalindexcalc",
+  "display_name": "PSG Arousal Index",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

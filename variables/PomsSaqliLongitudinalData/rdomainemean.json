@@ -1,0 +1,9 @@
+{
+  "id": "rdomainemean",
+  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain E - Treatment Related Symptoms Rescored Mean",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SAQLI"
+  ]
+}

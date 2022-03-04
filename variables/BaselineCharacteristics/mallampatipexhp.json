@@ -1,0 +1,9 @@
+{
+  "id": "mallampatipexhp",
+  "display_name": "Oral/Throat: Mallampati Score from HP Physical Exam (1 to 4)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

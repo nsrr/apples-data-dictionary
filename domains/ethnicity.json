@@ -1,0 +1,32 @@
+[
+  {
+    "value": "0) Native American",
+    "display_name": "Native American",
+    "description": ""
+  },
+  {
+    "value": "1) Asian",
+    "display_name": "Asian",
+    "description": ""
+  },
+  {
+    "value": "2) Black",
+    "display_name": "Black",
+    "description": ""
+  },
+  {
+    "value": "3) Hispanic",
+    "display_name": "Hispanic",
+    "description": ""
+  },
+  {
+    "value": "4) White",
+    "display_name": "White",
+    "description": ""
+  },
+  {
+    "value": "5) Other",
+    "display_name": "Other",
+    "description": ""
+  }
+]

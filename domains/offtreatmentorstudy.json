@@ -1,0 +1,17 @@
+[
+  {
+    "value": "Completed",
+    "display_name": "Completed",
+    "description": ""
+  },
+  {
+    "value": "Off-Study",
+    "display_name": "Off-Study",
+    "description": ""
+  },
+  {
+    "value": "Off-Treatment",
+    "display_name": "Off-Treatment",
+    "description": ""
+  }
+]

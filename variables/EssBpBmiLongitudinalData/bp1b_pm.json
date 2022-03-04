@@ -1,0 +1,9 @@
+{
+  "id": "bp1b_pm",
+  "display_name": "PM Diastolic Blood Presure 1st Measurement",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HL"
+  ]
+}

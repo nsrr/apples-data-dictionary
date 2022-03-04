@@ -1,0 +1,9 @@
+{
+  "id": "minspo2lt85wakeduration",
+  "display_name": "PSG Duration (min) of Wake where Oxygen Saturation Less than 85%",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "sleeplattotalhp",
+  "display_name": "Total Weekly Sleep Latency/Night from HP",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "latexallergymedhxhp",
+  "display_name": "Latex Allergy from HP Medical History:  (0=None, 1=Resolved, 2=Ongoing)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

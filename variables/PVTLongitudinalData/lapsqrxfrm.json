@@ -1,0 +1,9 @@
+{
+  "id": "lapsqrxfrm",
+  "display_name": "Psychomotor Vigilance Test (PVT) Total lapse counts transformed by using Freeman & Tukeys (1950) square root of X plus square root of (X + 1)",
+  "description": "PVT QC Rules 3-25-09 FINAL",
+  "type": "numeric",
+  "labels": [
+    "PVT"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "txgroup",
+  "display_name": "Treatment Group (0= Non-randomized; 1) Group A = Sham; 2) Group B = Active)",
+  "description": "",
+  "type": "choices",
+  "domain": "txgroup",
+  "labels": [
+    "SISS"
+  ]
+}

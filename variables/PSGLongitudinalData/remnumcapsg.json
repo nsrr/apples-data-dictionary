@@ -1,0 +1,9 @@
+{
+  "id": "remnumcapsg",
+  "display_name": "PSG Number of Central Apneas in REM",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

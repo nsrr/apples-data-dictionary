@@ -1,0 +1,9 @@
+{
+  "id": "mmsetotalscore",
+  "display_name": "Mini Mental State Exam (MMSE) Total Score ",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "MMSE"
+  ]
+}

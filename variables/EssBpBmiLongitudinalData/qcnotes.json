@@ -1,0 +1,10 @@
+{
+  "id": "qcnotes",
+  "display_name": "ESS Quality Control Notes (OK/Missing Data)",
+  "description": "",
+  "type": "choices",
+  "domain": "qcnotes",
+  "labels": [
+    "ESS"
+  ]
+}

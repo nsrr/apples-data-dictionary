@@ -1,0 +1,9 @@
+{
+  "id": "refreshinamhp",
+  "display_name": "Difficulty Rising from HP (0=No, 1=Yes)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

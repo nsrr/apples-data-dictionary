@@ -1,0 +1,9 @@
+{
+  "id": "totalerrors",
+  "display_name": "Psychomotor Vigilance Test (PVT) Total sum of errors (includes all false starts and wrong button presses) ",
+  "description": "PVT QC Rules 3-25-09 FINAL",
+  "type": "numeric",
+  "labels": [
+    "PVT"
+  ]
+}

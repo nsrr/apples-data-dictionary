@@ -1,0 +1,9 @@
+{
+  "id": "mwtnumbertrials",
+  "display_name": "Maintenance of Wakefullness Test (MWT) Number Trials",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "MWT"
+  ]
+}

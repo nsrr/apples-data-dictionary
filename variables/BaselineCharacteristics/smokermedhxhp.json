@@ -1,0 +1,9 @@
+{
+  "id": "smokermedhxhp",
+  "display_name": "Smoker from HP Medical History:  (0=None, 1=Resolved, 2=Ongoing)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

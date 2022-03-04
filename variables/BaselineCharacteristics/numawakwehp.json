@@ -1,0 +1,9 @@
+{
+  "id": "numawakwehp",
+  "display_name": "Weekend Number of Awakenings/Night from HP",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

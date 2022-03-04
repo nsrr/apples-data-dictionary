@@ -1,0 +1,9 @@
+{
+  "id": "factora",
+  "display_name": "Profiles of Moods States (POMS) Factor A - Anger-Hostility",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

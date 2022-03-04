@@ -1,0 +1,37 @@
+[
+  {
+    "value": "BL",
+    "display_name": "Baseline (BL)",
+    "description": ""
+  },
+  {
+    "value": "CE",
+    "display_name": "Clinical Evaluation (CE)",
+    "description": ""
+  },
+  {
+    "value": "DX",
+    "display_name": "Diagnostic Visit (DX)",
+    "description": ""
+  },
+  {
+    "value": "CPAP",
+    "display_name": "CPAP Titration Visit (CPAP)",
+    "description": ""
+  },
+  {
+    "value": "2M",
+    "display_name": "Two Month Post-CPAP Neurocognitive Visit (2M)",
+    "description": ""
+  },
+  {
+    "value": "4M",
+    "display_name": "Four Month Post-CPAP Neurocognitive Visit (4M)",
+    "description": ""
+  },
+  {
+    "value": "6M",
+    "display_name": "Six Month Post-CPAP Neurocognitive Visit (6M)",
+    "description": ""
+  }
+]

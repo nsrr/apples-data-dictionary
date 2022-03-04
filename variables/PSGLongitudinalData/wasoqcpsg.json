@@ -1,0 +1,9 @@
+{
+  "id": "wasoqcpsg",
+  "display_name": "PSG Wake after Sleep Onset  (min) ",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

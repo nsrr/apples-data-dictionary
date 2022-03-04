@@ -1,0 +1,9 @@
+{
+  "id": "factorderror",
+  "display_name": "Profiles of Moods States (POMS) Factor D Missing Questions - Depression-Dejection",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

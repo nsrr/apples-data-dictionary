@@ -1,0 +1,9 @@
+{
+  "id": "tmd",
+  "display_name": "Profiles of Moods States (POMS) Total Mood Disturbance Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

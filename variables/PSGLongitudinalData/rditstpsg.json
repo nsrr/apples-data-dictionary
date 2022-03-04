@@ -1,0 +1,9 @@
+{
+  "id": "rditstpsg",
+  "display_name": "PSG Apnea Hypopnea Index ",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

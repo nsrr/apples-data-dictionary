@@ -1,0 +1,9 @@
+{
+  "id": "moderatecaffeineusage",
+  "display_name": "Moderate Caffeine Usage - Defined as >14 Servings/Week",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SHQ"
+  ]
+}

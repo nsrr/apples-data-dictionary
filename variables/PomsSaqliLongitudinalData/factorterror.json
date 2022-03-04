@@ -1,0 +1,9 @@
+{
+  "id": "factorterror",
+  "display_name": "Profiles of Moods States (POMS) Factor T Missing Questions - Tension-Anxiety",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

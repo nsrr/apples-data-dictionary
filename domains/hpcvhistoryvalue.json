@@ -1,0 +1,12 @@
+[
+  {
+    "value": "negative",
+    "display_name": "Negative",
+    "description": ""
+  },
+  {
+    "value": "positive",
+    "display_name": "Positive",
+    "description": ""
+  }
+]

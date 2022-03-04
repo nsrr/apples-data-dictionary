@@ -1,0 +1,9 @@
+{
+  "id": "factorf",
+  "display_name": "Profiles of Moods States (POMS) Factor F - Fatigue-Inertia",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

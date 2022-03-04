@@ -1,0 +1,10 @@
+{
+  "id": "wtgain20ormorelbshp",
+  "display_name": "Weight Gain of 20 or More Pounds in Last 5 Years from HP Medical History:  (0=No, 1=Yes)",
+  "description": "",
+  "type": "choices",
+  "domain": "no0yes1",
+  "labels": [
+    "HP"
+  ]
+}

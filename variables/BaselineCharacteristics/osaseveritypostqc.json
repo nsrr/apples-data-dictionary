@@ -1,0 +1,10 @@
+{
+  "id": "osaseveritypostqc",
+  "display_name": "OSA Severity (0= Non-randomized; 1= Mild OSA [AHI 10-15.0); 2 = Moderate OSA [AHI 15.1-30]; 3= Severe OSA [AHI >30])",
+  "description": "",
+  "type": "choices",
+  "domain": "osaseveritypostqc",
+  "labels": [
+    "SISS"
+  ]
+}

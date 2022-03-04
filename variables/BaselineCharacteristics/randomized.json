@@ -1,0 +1,9 @@
+{
+  "id": "randomized",
+  "display_name": "Randomized Partcipant: 0=Not randomized, 1=Randomized",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SISS"
+  ]
+}

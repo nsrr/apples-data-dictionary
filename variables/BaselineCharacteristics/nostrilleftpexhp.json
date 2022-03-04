@@ -1,0 +1,9 @@
+{
+  "id": "nostrilleftpexhp",
+  "display_name": "Nose: Left Nostril from HP Physical Exam (0=Open, 1=Partial, 2=Complete)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

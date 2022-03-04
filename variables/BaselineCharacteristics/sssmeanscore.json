@@ -1,0 +1,9 @@
+{
+  "id": "sssmeanscore",
+  "display_name": "Stanford Sleepiness Scale (SSS) Mean Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SSS"
+  ]
+}

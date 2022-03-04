@@ -1,0 +1,7 @@
+{
+  "id": "visitn",
+  "display_name": "Visit (Number)",
+  "description": ":visit: converted into number by NSRR team",
+  "type": "choices",
+  "domain": "visitn"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "age",
+  "display_name": "Age at Enrollment",
+  "description": "",
+  "type": "integer",
+  "labels": [
+    "SISS"
+  ]
+}

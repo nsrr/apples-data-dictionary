@@ -1,0 +1,9 @@
+{
+  "id": "cigarettehistorypkyrs",
+  "display_name": "Cigarette History (pack-years) from HP",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

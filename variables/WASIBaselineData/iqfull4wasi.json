@@ -1,0 +1,9 @@
+{
+  "id": "iqfull4wasi",
+  "display_name": "WASI Full 4 IQ",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "WASI"
+  ]
+}

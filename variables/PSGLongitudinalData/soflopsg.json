@@ -1,0 +1,9 @@
+{
+  "id": "soflopsg",
+  "display_name": "PSG Sleep Latency (min)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "falsestartse",
+  "display_name": "Psychomotor Vigilance Test (PVT) False Start (E) (no stimulus, incorrect key)",
+  "description": "PVT QC Rules 3-25-09 FINAL",
+  "type": "numeric",
+  "labels": [
+    "PVT"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "avgspo2rem",
+  "display_name": "PSG Average O2 Saturation - REM",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "wkdursleep",
+  "display_name": "PSG Wake During Sleep (min)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

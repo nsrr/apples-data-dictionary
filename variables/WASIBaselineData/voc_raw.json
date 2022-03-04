@@ -1,0 +1,9 @@
+{
+  "id": "voc_raw",
+  "display_name": "WASI Vocabulary Subtest Raw Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "WASI"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "visit",
+  "display_name": "Visit (BL=Baseline)",
+  "description": "",
+  "type": "choices",
+  "domain": "visit",
+  "labels": [
+    "SHQ, HP, HL, MEQ, BDI, MMSE, SSS, HAMD"
+  ]
+}

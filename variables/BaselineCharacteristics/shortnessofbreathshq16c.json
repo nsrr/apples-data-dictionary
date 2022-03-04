@@ -1,0 +1,9 @@
+{
+  "id": "shortnessofbreathshq16c",
+  "display_name": "SHQ Q16c: How Often Awakened by Shortness of Breath (0=Never, 1=Rarely [1/month or less], 2=Sometimes [2-4/month], 3=Often [5-15/month], 4=Almost Always [16-30/month])",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SHQ"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tibpsg",
+  "display_name": "PSG Time in Bed (min)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pertsts1psg",
+  "display_name": "PSG Stage 1 (%)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

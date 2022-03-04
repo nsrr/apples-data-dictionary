@@ -1,0 +1,9 @@
+{
+  "id": "ge4hrsgt70per1night",
+  "display_name": "CPAP Adherence - Greater than or equal to 4 hours of use for greater than 70 percent of the time - Period is 1 Night",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "Adherence"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "factord",
+  "display_name": "Profiles of Moods States (POMS) Factor D - Depression-Dejection",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

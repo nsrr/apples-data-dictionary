@@ -1,0 +1,9 @@
+{
+  "id": "swmtactivation3",
+  "display_name": "Sustained Working Memory Test (SWMT) EEG Activation Sub-Index - Afternoon Administration",
+  "description": "SWMT Missing Data Codes 3-16-09",
+  "type": "numeric",
+  "labels": [
+    "SWMT"
+  ]
+}

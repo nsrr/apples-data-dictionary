@@ -1,0 +1,9 @@
+{
+  "id": "hpcvedema",
+  "display_name": "Cardiovascular History from H&P- Edema: (0=None, 1=Resolved, 2=Ongoing)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

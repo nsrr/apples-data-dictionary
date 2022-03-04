@@ -1,0 +1,9 @@
+{
+  "id": "mr_raw",
+  "display_name": "WASI Matrix Reasoning Subtest Raw Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "WASI"
+  ]
+}

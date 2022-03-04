@@ -1,0 +1,10 @@
+{
+  "id": "excludecategory",
+  "display_name": "Exclusion, Withdrawal, Dropped, or Disqualified Category",
+  "description": "APPLES Subject Status Definitions 12-04 2",
+  "type": "choices",
+  "domain": "excludecategory",
+  "labels": [
+    "SISS"
+  ]
+}

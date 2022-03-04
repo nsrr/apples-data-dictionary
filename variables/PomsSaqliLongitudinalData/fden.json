@@ -1,0 +1,9 @@
+{
+  "id": "fden",
+  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain F - Impact Denominator",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SAQLI"
+  ]
+}

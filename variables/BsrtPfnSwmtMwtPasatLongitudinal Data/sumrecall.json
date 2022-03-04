@@ -1,0 +1,9 @@
+{
+  "id": "sumrecall",
+  "display_name": "Buschke Selective Reminding Test (BSRT) Sum Recall - 1 NC Outcome ",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "BSRT"
+  ]
+}

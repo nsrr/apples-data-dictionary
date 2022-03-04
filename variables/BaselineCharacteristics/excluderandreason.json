@@ -1,0 +1,9 @@
+{
+  "id": "excluderandreason",
+  "display_name": "Exclusion, Withdrawal, Dropped, or Disqualified Reason",
+  "description": "APPLES Subject Status Definitions 12-04 2",
+  "type": "text",
+  "labels": [
+    "SISS"
+  ]
+}

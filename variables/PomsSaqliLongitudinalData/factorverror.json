@@ -1,0 +1,9 @@
+{
+  "id": "factorverror",
+  "display_name": "Profiles of Moods States (POMS) Factor V Missing Questions - Vigor-Activity",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

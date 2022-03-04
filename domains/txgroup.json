@@ -1,0 +1,17 @@
+[
+  {
+    "value": "0) Non-rand",
+    "display_name": "Non-randomized",
+    "description": ""
+  },
+  {
+    "value": "1) Group A",
+    "display_name": "Group A - Sham",
+    "description": ""
+  },
+  {
+    "value": "2) Group B",
+    "display_name": "Group A - Active",
+    "description": ""
+  }
+]

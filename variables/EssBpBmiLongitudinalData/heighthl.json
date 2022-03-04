@@ -1,0 +1,9 @@
+{
+  "id": "heighthl",
+  "display_name": "Height from Health Log",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HL"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pulse1pm",
+  "display_name": "PM Pulse 1st Measurement",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HL"
+  ]
+}

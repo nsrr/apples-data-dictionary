@@ -1,0 +1,9 @@
+{
+  "id": "amheadacheshp",
+  "display_name": "AM Headaches from HP (0=No, 1=Yes)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

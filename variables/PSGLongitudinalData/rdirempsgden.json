@@ -1,0 +1,9 @@
+{
+  "id": "rdirempsgden",
+  "display_name": "PSG Total Minutes of REM sleep - REM RDI Denominator",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

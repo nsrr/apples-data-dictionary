@@ -1,0 +1,9 @@
+{
+  "id": "waisttohipratiohp",
+  "display_name": "Waist to Hip Ratio Derived from HP Physical Exam",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

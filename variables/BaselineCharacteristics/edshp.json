@@ -1,0 +1,9 @@
+{
+  "id": "edshp",
+  "display_name": "Excessive Daytime Somnolence from HP (0=No, 1=Yes)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

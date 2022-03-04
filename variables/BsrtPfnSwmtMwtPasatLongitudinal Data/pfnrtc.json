@@ -1,0 +1,9 @@
+{
+  "id": "pfnrtc",
+  "display_name": "Cogscreen Pathfinder Number (PN) Reaction Time",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PFNRTC"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rrtslope",
+  "display_name": "Psychomotor Vigilance Test (PVT) Slope of the time on task vigilance decrement function (for 1/RT data)",
+  "description": "PVT QC Rules 3-25-09 FINAL",
+  "type": "numeric",
+  "labels": [
+    "PVT"
+  ]
+}

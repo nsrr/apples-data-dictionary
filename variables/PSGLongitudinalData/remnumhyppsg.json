@@ -1,0 +1,9 @@
+{
+  "id": "remnumhyppsg",
+  "display_name": "PSG Number of Hypopneas in REM",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

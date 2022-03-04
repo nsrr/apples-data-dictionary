@@ -1,0 +1,22 @@
+[
+  {
+    "value": "0) Non-rand",
+    "display_name": "Non-randomized",
+    "description": ""
+  },
+  {
+    "value": "1) mild",
+    "display_name": "Mild",
+    "description": ""
+  },
+  {
+    "value": "2) moderate",
+    "display_name": "Moderate",
+    "description": ""
+  },
+  {
+    "value": "3) severe",
+    "display_name": "Severe",
+    "description": ""
+  }
+]

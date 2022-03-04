@@ -1,0 +1,9 @@
+{
+  "id": "factort",
+  "display_name": "Profiles of Moods States (POMS) Factor T - Tension-Anxiety",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "difficultrisinghp",
+  "display_name": "Refreshed in AM from HP (0=No, 1=Yes)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

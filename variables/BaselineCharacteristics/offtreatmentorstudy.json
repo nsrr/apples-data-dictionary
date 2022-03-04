@@ -1,0 +1,10 @@
+{
+  "id": "offtreatmentorstudy",
+  "display_name": "Off-Treatment, Off-Study, or Completed",
+  "description": "APPLES Subject Status Definitions 12-04 2",
+  "type": "choices",
+  "domain": "offtreatmentorstudy",
+  "labels": [
+    "SISS"
+  ]
+}

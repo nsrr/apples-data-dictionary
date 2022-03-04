@@ -1,0 +1,9 @@
+{
+  "id": "factorc",
+  "display_name": "Profiles of Moods States (POMS) Factor C - Confusion-Bewilderment",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "analysisgroup",
+  "display_name": "Analysis Group (Yes/No; 1098 analyzed in primary manuscript)",
+  "description": "",
+  "type": "choices",
+  "domain": "analysisgroup",
+  "labels": [
+    "SISS"
+  ]
+}

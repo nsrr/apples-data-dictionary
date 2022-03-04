@@ -1,0 +1,9 @@
+{
+  "id": "weighthlhp",
+  "display_name": "Weight from Health Log and 4M HP (HL is gold standard, use 4M HP if HL missing)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HL/HP"
+  ]
+}

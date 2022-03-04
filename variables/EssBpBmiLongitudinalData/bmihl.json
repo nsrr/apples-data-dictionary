@@ -1,0 +1,9 @@
+{
+  "id": "bmihl",
+  "display_name": "Body Mass Index from Health Log",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HL"
+  ]
+}

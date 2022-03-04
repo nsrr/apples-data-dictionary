@@ -1,0 +1,9 @@
+{
+  "id": "voc_t",
+  "display_name": "WASI Vocabulary Subtest T Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "WASI"
+  ]
+}

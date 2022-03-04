@@ -1,0 +1,9 @@
+{
+  "id": "totalalcholservingsperweek",
+  "display_name": "Total Alcohol Sevings Per Week",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SHQ"
+  ]
+}

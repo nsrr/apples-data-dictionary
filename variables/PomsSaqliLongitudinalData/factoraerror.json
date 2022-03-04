@@ -1,0 +1,9 @@
+{
+  "id": "factoraerror",
+  "display_name": "Profiles of Moods States (POMS) Factor A Missing Questions - Anger-Hostility",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

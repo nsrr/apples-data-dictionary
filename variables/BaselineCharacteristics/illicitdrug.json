@@ -1,0 +1,9 @@
+{
+  "id": "illicitdrug",
+  "display_name": "Illicit Drug Use: 0=No, 1=Yes",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SHQ"
+  ]
+}

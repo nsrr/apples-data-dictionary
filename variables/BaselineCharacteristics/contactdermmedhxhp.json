@@ -1,0 +1,9 @@
+{
+  "id": "contactdermmedhxhp",
+  "display_name": "Contact Dermatitis from HP Medical History:  (0=None, 1=Resolved, 2=Ongoing)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

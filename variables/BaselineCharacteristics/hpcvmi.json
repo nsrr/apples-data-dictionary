@@ -1,0 +1,9 @@
+{
+  "id": "hpcvmi",
+  "display_name": "Cardiovascular History from H&P- Myocardial Infarction: (0=None, 1=Resolved, 2=Ongoing)",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP"
+  ]
+}

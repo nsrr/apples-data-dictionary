@@ -1,0 +1,9 @@
+{
+  "id": "perspo2lt85tst",
+  "display_name": "PSG Percent of Total Sleep Time Oxygen Saturation During Sleep Less than 85%",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG"
+  ]
+}

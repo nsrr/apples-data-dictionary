@@ -1,0 +1,9 @@
+{
+  "id": "totalcaffeineservingsperweek",
+  "display_name": "Total Caffeine Servings Per Week",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SHQ"
+  ]
+}

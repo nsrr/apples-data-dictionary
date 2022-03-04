@@ -1,0 +1,9 @@
+{
+  "id": "factorferror",
+  "display_name": "Profiles of Moods States (POMS) Factor F Missing Questions - Fatigue-Inertia",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "POMS"
+  ]
+}

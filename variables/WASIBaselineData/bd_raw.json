@@ -1,0 +1,9 @@
+{
+  "id": "bd_raw",
+  "display_name": "WASI Block Design Subtest Raw Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "WASI"
+  ]
+}

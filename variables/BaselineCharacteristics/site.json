@@ -1,0 +1,10 @@
+{
+  "id": "site",
+  "display_name": "Site",
+  "description": "",
+  "type": "choices",
+  "domain": "site",
+  "labels": [
+    "SISS"
+  ]
+}

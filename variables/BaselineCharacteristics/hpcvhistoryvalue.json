@@ -1,0 +1,10 @@
+{
+  "id": "hpcvhistoryvalue",
+  "display_name": "Cardiovascular History from H&P- Overall Value (Positive/Negative)",
+  "description": "",
+  "type": "choices",
+  "domain": "hpcvhistoryvalue",
+  "labels": [
+    "HP"
+  ]
+}
