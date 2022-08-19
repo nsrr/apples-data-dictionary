@@ -214,6 +214,8 @@
 data apples_harmonized;
   set apples_nsrr;
 
+nsrrid=appleid;
+
 *demographics
 *age;
 *use age;
@@ -305,7 +307,8 @@ data apples_harmonized;
     if smokermedhxhp = '1' then nsrr_ever_smoker = 'yes';
     else if smokermedhxhp = '2' then nsrr_ever_smoker = 'yes';
     else if smokermedhxhp = '0'  then nsrr_ever_smoker = 'no';
-    else if smokermedhxhp = 'A'  then nsrr_ever_smoker = 'not reported';
+    else if smokermedhxhp = '-1'  then nsrr_ever_smoker = 'not reported';
+	else if smokermedhxhp = '-2'  then nsrr_ever_smoker = 'not reported';
   else nsrr_ever_smoker = 'not reported';
 
 *current_smoker;
@@ -320,10 +323,43 @@ data apples_harmonized;
     else if currentsmoker = '-2' then nsrr_current_smoker = 'not reported';
   else if currentsmoker = .  then nsrr_current_smoker = 'not reported';
 
-
+  keep 
+    nsrrid
+    nsrr_age
+    nsrr_age_gt89
+    nsrr_sex
+    nsrr_race
+    nsrr_ethnicity
+    nsrr_bmi
+    nsrr_bp_systolic
+    nsrr_bp_diastolic
+    nsrr_current_smoker
+    nsrr_ever_smoker
+    ;
+run;
 *******************************************************************************;
 * checking harmonized datasets ;
 *******************************************************************************;
+/* Checking for extreme values for continuous variables */
+
+proc means data=apples_harmonized;
+VAR   nsrr_age
+    nsrr_bmi
+    nsrr_bp_systolic
+    nsrr_bp_diastolic
+	;
+run;
+
+/* Checking categorical variables */
+
+proc freq data=apples_harmonized;
+table   nsrr_age_gt89
+    nsrr_sex
+    nsrr_race
+    nsrr_ethnicity
+    nsrr_current_smoker
+    nsrr_ever_smoker;
+run;
 
 *******************************************************************************;
 * make all variable names lowercase ;
@@ -350,6 +386,13 @@ data apples_harmonized;
 *******************************************************************************;
   proc export data=apples_nsrr
     outfile="&releasepath\&version\apples-dataset-&version..csv"
+    dbms=csv
+    replace;
+  run;
+  
+  proc export
+    data=apples_harmonized
+    outfile="&releasepath\&version\apples-harmonized-dataset-&version..csv"
     dbms=csv
     replace;
   run;
