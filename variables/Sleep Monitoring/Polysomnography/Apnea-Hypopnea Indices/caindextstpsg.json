@@ -1,0 +1,10 @@
+{
+  "id": "caindextstpsg",
+  "display_name": "PSG Central Apnea Index",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "PSG"
+  ]
+}

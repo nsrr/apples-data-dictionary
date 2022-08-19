@@ -1,9 +1,0 @@
-{
-  "id": "domainfmean",
-  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domian F - Impact Mean ",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SAQLI"
-  ]
-}

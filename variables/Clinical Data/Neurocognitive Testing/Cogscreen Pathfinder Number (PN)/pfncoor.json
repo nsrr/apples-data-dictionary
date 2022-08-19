@@ -1,0 +1,10 @@
+{
+  "id": "pfncoor",
+  "display_name": "Cogscreen Pathfinder Number (PN) Coordination",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PFNRTC",
+    "cognitive"
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "id": "eden",
-  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain E - Treatment Related Symptoms Denominator",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SAQLI"
-  ]
-}

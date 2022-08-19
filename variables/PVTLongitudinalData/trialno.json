@@ -1,9 +1,0 @@
-{
-  "id": "trialno",
-  "display_name": "Psychomotor Vigilance Test (PVT) Trial Number",
-  "description": "PVT QC Rules 3-25-09 FINAL",
-  "type": "numeric",
-  "labels": [
-    "PVT"
-  ]
-}

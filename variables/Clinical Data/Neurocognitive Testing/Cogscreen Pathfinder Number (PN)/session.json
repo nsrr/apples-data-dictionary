@@ -1,0 +1,10 @@
+{
+  "id": "session",
+  "display_name": "CogScreen Session",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PFNRTC",
+    "cognitive"
+  ]
+}

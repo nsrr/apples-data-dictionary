@@ -1,0 +1,10 @@
+{
+  "id": "meanrt",
+  "display_name": "Psychomotor Vigilance Test (PVT) Mean RT (msec)",
+  "description": "PVT QC Rules 3-25-09 FINAL",
+  "type": "numeric",
+  "labels": [
+    "PVT",
+    "sleep_related_impairment"
+  ]
+}

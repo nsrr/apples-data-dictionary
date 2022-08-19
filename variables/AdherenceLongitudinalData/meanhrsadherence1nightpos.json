@@ -1,9 +1,0 @@
-{
-  "id": "meanhrsadherence1nightpos",
-  "display_name": "Mean Hours of CPAP Adherence 1 Night Prior to Visit - Denominator is Number of Possible Days",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "Adherence"
-  ]
-}

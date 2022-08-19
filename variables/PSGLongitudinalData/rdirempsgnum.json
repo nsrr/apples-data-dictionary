@@ -1,9 +1,0 @@
-{
-  "id": "rdirempsgnum",
-  "display_name": "PSG Respiratory Disturbance Index in REM",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "id": "neckcircinchhp",
-  "display_name": "Neck Circumference in Inches from HP Physical Exam",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

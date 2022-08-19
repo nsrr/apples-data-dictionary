@@ -1,0 +1,10 @@
+{
+  "id": "shqhrssleeppernightwd",
+  "display_name": "Weekday Hours Sleep Per Night from SHQ",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SHQ",
+    "sleep_duration"
+  ]
+}

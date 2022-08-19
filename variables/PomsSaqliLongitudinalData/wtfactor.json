@@ -1,9 +1,0 @@
-{
-  "id": "wtfactor",
-  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Weight Factor",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SAQLI"
-  ]
-}

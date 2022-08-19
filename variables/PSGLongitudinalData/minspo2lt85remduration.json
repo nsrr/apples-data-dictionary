@@ -1,9 +1,0 @@
-{
-  "id": "minspo2lt85remduration",
-  "display_name": "PSG Duration (min) of REM Sleep where Oxygen Saturation Less than 85%",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

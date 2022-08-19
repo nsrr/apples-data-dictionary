@@ -1,27 +1,27 @@
 [
   {
     "value": "1) SU",
-    "display_name": "SU",
+    "display_name": "Su",
     "description": ""
   },
   {
     "value": "2) UA",
-    "display_name": "UA",
+    "display_name": "Ua",
     "description": ""
   },
   {
     "value": "3) SM",
-    "display_name": "SM",
+    "display_name": "Sm",
     "description": ""
   },
   {
     "value": "4) SL",
-    "display_name": "SL",
+    "display_name": "Sl",
     "description": ""
   },
   {
     "value": "5) BW",
-    "display_name": "BW",
+    "display_name": "Bw",
     "description": ""
   }
 ]

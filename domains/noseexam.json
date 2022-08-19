@@ -1,0 +1,29 @@
+[
+  {
+    "value": "0",
+    "display_name": "Open",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Partial",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Completed",
+    "description": ""
+  },
+  {
+    "value": "-1",
+    "display_name": "Accidental skip",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-2",
+    "display_name": "Does Not Apply",
+    "description": "",
+    "missing": true
+  }
+]

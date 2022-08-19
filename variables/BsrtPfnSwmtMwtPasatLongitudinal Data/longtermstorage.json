@@ -1,9 +1,0 @@
-{
-  "id": "longtermstorage",
-  "display_name": "Buschke Selective Reminding Test (BSRT) Long Term Storage",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "BSRT"
-  ]
-}

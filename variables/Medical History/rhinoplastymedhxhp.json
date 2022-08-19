@@ -1,0 +1,10 @@
+{
+  "id": "rhinoplastymedhxhp",
+  "display_name": "Rhinoplasty from HP Medical History:  (0=None, 1=Resolved, 2=Ongoing)",
+  "description": "",
+  "type": "choices",
+  "domain": "medhistory",
+  "labels": [
+    "HP"
+  ]
+}

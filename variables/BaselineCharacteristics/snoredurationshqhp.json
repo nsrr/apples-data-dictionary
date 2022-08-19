@@ -1,9 +1,0 @@
-{
-  "id": "snoredurationshqhp",
-  "display_name": "Duration of Snoring in Years from SHQ/HP",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SHQ, HP"
-  ]
-}

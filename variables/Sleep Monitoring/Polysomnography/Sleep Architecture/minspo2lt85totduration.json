@@ -1,0 +1,11 @@
+{
+  "id": "minspo2lt85totduration",
+  "display_name": "Total sleep duration associated with oxygen saturation less than 85% from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "PSG",
+    "ttldursp_salt85_f1t1"
+  ]
+}

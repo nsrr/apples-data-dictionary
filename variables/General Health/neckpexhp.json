@@ -1,0 +1,10 @@
+{
+  "id": "neckpexhp",
+  "display_name": "Body System: Neck from HP Physical Exam (0=Normal, 1=Abnormal, 2=Not Done)",
+  "description": "",
+  "type": "choices",
+  "domain": "phyexam",
+  "labels": [
+    "HP"
+  ]
+}

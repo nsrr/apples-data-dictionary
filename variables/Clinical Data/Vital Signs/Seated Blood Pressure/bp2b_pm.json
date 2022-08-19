@@ -1,0 +1,10 @@
+{
+  "id": "bp2b_pm",
+  "display_name": "PM Diastolic Blood Presure 2nd Measurement",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury",
+  "labels": [
+    "HL"
+  ]
+}

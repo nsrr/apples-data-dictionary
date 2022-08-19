@@ -1,9 +1,0 @@
-{
-  "id": "iqperf",
-  "display_name": "WASI Performance IQ",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "WASI"
-  ]
-}

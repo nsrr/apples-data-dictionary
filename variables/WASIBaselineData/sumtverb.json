@@ -1,9 +1,0 @@
-{
-  "id": "sumtverb",
-  "display_name": "WASI Sum of T Scores - Verbal= Vocabulary + Similarities T Scores",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "WASI"
-  ]
-}

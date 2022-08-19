@@ -1,9 +1,0 @@
-{
-  "id": "domainbtotal",
-  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain B - Social Interactions Total",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SAQLI"
-  ]
-}

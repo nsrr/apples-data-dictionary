@@ -1,9 +1,0 @@
-{
-  "id": "height",
-  "display_name": "Height (inches) from HP",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

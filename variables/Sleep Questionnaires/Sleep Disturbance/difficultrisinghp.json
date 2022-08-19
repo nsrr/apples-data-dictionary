@@ -1,0 +1,11 @@
+{
+  "id": "difficultrisinghp",
+  "display_name": "Refreshed in AM from HP (0=No, 1=Yes)",
+  "description": "",
+  "type": "choices",
+  "domain": "no0yes1",
+  "labels": [
+    "HP",
+    "sleep_quality"
+  ]
+}

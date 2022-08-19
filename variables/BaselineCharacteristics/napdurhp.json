@@ -1,9 +1,0 @@
-{
-  "id": "napdurhp",
-  "display_name": "Nap Duration from HP",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

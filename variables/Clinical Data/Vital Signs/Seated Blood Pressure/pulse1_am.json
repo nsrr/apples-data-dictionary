@@ -1,0 +1,10 @@
+{
+  "id": "pulse1_am",
+  "display_name": "AM Pulse 1st Measurement",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute",
+  "labels": [
+    "HL"
+  ]
+}

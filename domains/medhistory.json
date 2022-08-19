@@ -1,0 +1,35 @@
+[
+  {
+    "value": "0",
+    "display_name": "None",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Resolved",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Ongoing",
+    "description": ""
+  },
+  {
+    "value": "-1",
+    "display_name": "Accidental skip",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-2",
+    "display_name": "Does Not Apply",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-3",
+    "display_name": "Refused by Subject",
+    "description": "",
+    "missing": true
+  }
+]

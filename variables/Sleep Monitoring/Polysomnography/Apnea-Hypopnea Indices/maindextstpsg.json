@@ -1,0 +1,10 @@
+{
+  "id": "maindextstpsg",
+  "display_name": "PSG Mixed Apnea Index",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "PSG"
+  ]
+}

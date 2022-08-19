@@ -1,9 +1,0 @@
-{
-  "id": "dden",
-  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain D - Symptoms Denominator",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SAQLI"
-  ]
-}

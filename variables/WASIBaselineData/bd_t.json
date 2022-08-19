@@ -1,9 +1,0 @@
-{
-  "id": "bd_t",
-  "display_name": "WASI Block Design Subtest T Score",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "WASI"
-  ]
-}

@@ -1,0 +1,10 @@
+{
+  "id": "hpcvdysrhyth",
+  "display_name": "Cardiovascular History from H&P- Dysrhythmia: (0=None, 1=Resolved, 2=Ongoing)",
+  "description": "",
+  "type": "choices",
+  "domain": "medhistory",
+  "labels": [
+    "HP"
+  ]
+}

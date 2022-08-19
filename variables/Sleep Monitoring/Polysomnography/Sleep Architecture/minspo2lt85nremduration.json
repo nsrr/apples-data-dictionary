@@ -1,0 +1,11 @@
+{
+  "id": "minspo2lt85nremduration",
+  "display_name": "Total sleep duration in NREM sleep associated with oxygen saturation less than 85% from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "PSG",
+    "ttldursp_sn_salt85_f1t1"
+  ]
+}

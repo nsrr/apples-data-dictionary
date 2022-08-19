@@ -1,0 +1,11 @@
+{
+  "id": "soremfsopsg",
+  "display_name": "PSG REM Sleep Latency (min)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "PSG",
+    "ttllatsp_sr_f1t1"
+  ]
+}

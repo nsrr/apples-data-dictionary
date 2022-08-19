@@ -1,9 +1,0 @@
-{
-  "id": "pfnput",
-  "display_name": "Cogscreen Pathfinder Number (PN) Thruput",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PFNRTC"
-  ]
-}

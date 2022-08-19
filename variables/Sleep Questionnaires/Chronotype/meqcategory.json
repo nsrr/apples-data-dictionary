@@ -1,0 +1,11 @@
+{
+  "id": "meqcategory",
+  "display_name": "Morningness-Eveningness Questionnaire (MEQ) Category (1=Definitely Evening Type, 2=Moderately Evening Type, 3=Neither Type, 4=Moderately Morning Type, 5=Definitely Morning Type)",
+  "description": "",
+  "type": "choices",
+  "domain": "meqcat",
+  "labels": [
+    "MEQ",
+    "chronotype"
+  ]
+}

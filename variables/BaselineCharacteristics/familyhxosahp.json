@@ -1,9 +1,0 @@
-{
-  "id": "familyhxosahp",
-  "display_name": "Family History of OSA from HP (0=No, 1=Yes)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

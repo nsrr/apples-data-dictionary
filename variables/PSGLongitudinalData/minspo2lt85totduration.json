@@ -1,9 +1,0 @@
-{
-  "id": "minspo2lt85totduration",
-  "display_name": "PSG Duration (min) of Total Sleep where Oxygen Saturation Less than 85%",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

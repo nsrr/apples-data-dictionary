@@ -1,0 +1,10 @@
+{
+  "id": "bditotalscore",
+  "display_name": "Beck Depression Inventory (BDI) Total Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "BDI",
+    "depression"
+  ]
+}

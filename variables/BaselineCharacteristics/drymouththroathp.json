@@ -1,9 +1,0 @@
-{
-  "id": "drymouththroathp",
-  "display_name": "Dry Mouth or Throat from HP (0=No, 1=Yes)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

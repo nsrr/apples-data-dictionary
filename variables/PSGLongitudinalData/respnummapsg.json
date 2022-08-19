@@ -1,9 +1,0 @@
-{
-  "id": "respnummapsg",
-  "display_name": "PSG Number of Respiratory Events - Mixed Apnea",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

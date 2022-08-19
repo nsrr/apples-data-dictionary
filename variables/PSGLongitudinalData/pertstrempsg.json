@@ -1,9 +1,0 @@
-{
-  "id": "pertstrempsg",
-  "display_name": "PSG Stage REM (%)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

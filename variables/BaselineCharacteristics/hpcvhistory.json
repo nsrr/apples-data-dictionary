@@ -1,9 +1,0 @@
-{
-  "id": "hpcvhistory",
-  "display_name": "Cardiovascular History from H&P- Overall CV Endorsement: (0=None, 1=Resolved, 2=Ongoing)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

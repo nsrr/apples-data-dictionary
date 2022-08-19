@@ -1,9 +1,0 @@
-{
-  "id": "hpcvchf",
-  "display_name": "Cardiovascular History from H&P- Congestive Heart Failure: (0=None, 1=Resolved, 2=Ongoing)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

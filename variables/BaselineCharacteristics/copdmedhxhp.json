@@ -1,9 +1,0 @@
-{
-  "id": "copdmedhxhp",
-  "display_name": "Chronic Obstructive Pulmonary Disease from HP Medical History: (0=None, 1=Resolved, 2=Ongoing)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

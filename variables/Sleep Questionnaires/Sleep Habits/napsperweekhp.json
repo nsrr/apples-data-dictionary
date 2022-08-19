@@ -1,0 +1,10 @@
+{
+  "id": "napsperweekhp",
+  "display_name": "Number of Naps/Week from HP",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP",
+    "sleep_hygiene"
+  ]
+}

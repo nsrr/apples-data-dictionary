@@ -1,0 +1,10 @@
+{
+  "id": "totalcorr12",
+  "display_name": "Paced Auditory Serial Addition Task (PASAT) Total Correct Responses - 1.2 second trial",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PASAT",
+    "cognitive"
+  ]
+}

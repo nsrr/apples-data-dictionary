@@ -1,9 +1,0 @@
-{
-  "id": "domainftotal",
-  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain F - Impact Total",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SAQLI"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "id": "moderatealcoholusage",
-  "display_name": "Moderate Alcohol Usage - Defined as >7 Servings/Week",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SHQ"
-  ]
-}

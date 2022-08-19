@@ -1,0 +1,11 @@
+{
+  "id": "rditstpsg",
+  "display_name": "Apnea-Hypopnea Index: (All apneas with no oxygen desaturation threshold used and with or without arousal + hypopneas with > 50% flow reduction and without oxygen desaturation threshold used and with or without arousal + hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation or with arousal) / hour of sleep from type I polysomnography",
+  "description": "Hypopneas are defined using two criteria:  a > 50%, but <= 90% amplitude decrease from baseline of the nasal pressure signal; or if there was a clear amplitude reduction of the nasal pressure signal that did not reach the above criterion but it was associated with either an oxygen desaturation > 3% or an arousal, and the event duration was >= 10 seconds. ",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "PSG",
+    "ahi_ap0uhp5x0u_ap0uhp3x3r_f1t1"
+  ]
+}

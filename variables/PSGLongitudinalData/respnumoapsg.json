@@ -1,9 +1,0 @@
-{
-  "id": "respnumoapsg",
-  "display_name": "PSG Number of Respiratory Events - Obstructive Apnea",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

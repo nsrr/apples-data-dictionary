@@ -1,9 +1,0 @@
-{
-  "id": "ccnocturiahp",
-  "display_name": "Nocturia >1/Night from HP (0=No, 1=Yes)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

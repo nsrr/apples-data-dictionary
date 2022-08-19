@@ -1,9 +1,0 @@
-{
-  "id": "sim_raw",
-  "display_name": "WASI Similarities Subtest Raw Score",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "WASI"
-  ]
-}

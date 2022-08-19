@@ -1,0 +1,10 @@
+{
+  "id": "swmtoverall2",
+  "display_name": "Sustained Working Memory Test (SWMT) Overall Index - Mid-day Administration",
+  "description": "SWMT Missing Data Codes 3-16-09",
+  "type": "numeric",
+  "labels": [
+    "SWMT",
+    "cognitive"
+  ]
+}

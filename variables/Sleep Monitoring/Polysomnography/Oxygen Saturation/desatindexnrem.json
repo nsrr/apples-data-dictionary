@@ -1,0 +1,10 @@
+{
+  "id": "desatindexnrem",
+  "display_name": "Average oxygen desaturation for all respiratory events in NREM sleep from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG",
+    "avglvlds_sn_f1t1"
+  ]
+}

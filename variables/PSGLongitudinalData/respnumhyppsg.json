@@ -1,9 +1,0 @@
-{
-  "id": "respnumhyppsg",
-  "display_name": "PSG Number of Respiratory Events - Hypopnea ",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

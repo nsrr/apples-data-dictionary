@@ -1,9 +1,0 @@
-{
-  "id": "aden",
-  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain A - Daily Functioning Denominator",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SAQLI"
-  ]
-}

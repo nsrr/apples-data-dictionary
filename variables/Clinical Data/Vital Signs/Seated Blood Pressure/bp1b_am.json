@@ -1,0 +1,10 @@
+{
+  "id": "bp1b_am",
+  "display_name": "AM Diastolic Blood Presure 1st Measurement",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury",
+  "labels": [
+    "HL"
+  ]
+}

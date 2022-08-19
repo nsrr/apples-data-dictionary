@@ -1,9 +1,0 @@
-{
-  "id": "ccpainaffectssleephp",
-  "display_name": "Pain Affects Sleep from HP (0=No, 1=Yes)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

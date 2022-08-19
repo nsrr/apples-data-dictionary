@@ -1,9 +1,0 @@
-{
-  "id": "maindextstpsg",
-  "display_name": "PSG Mixed Apnea Index During Sleep",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

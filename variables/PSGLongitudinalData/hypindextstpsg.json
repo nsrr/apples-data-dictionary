@@ -1,9 +1,0 @@
-{
-  "id": "hypindextstpsg",
-  "display_name": "PSG Hypopnea Index",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

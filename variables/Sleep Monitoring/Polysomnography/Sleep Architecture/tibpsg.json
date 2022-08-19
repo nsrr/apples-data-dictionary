@@ -1,0 +1,11 @@
+{
+  "id": "tibpsg",
+  "display_name": "Total In-bed Period: the interval between lights out/in-bed time and lights off/out-bed time from type I polysomnography",
+  "description": "Calculated. Conventionally this variable would be called time in bed (TIB).",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "PSG",
+    "ttlprdbd_f1t1"
+  ]
+}

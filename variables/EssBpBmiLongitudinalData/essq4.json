@@ -1,9 +1,0 @@
-{
-  "id": "essq4",
-  "display_name": "ESS Question 4-Car passenger:  0=No chance of dozing, 1=Slight chance of dozing, 2=Moderate chance of dozing, 4=High chance of dozing",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "ESS"
-  ]
-}

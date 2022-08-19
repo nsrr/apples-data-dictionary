@@ -1,9 +1,0 @@
-{
-  "id": "caindextstpsgcalc",
-  "display_name": "PSG Central Apnea Index During Sleep",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

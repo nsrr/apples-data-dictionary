@@ -1,9 +1,0 @@
-{
-  "id": "nostrilrightpexhp",
-  "display_name": "Nose: Right Nostril from HP Physical Exam (0=Open, 1=Partial, 2=Complete)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

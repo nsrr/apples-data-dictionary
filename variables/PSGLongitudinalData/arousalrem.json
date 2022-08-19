@@ -1,9 +1,0 @@
-{
-  "id": "arousalrem",
-  "display_name": "PSG Arousal Index- REM",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

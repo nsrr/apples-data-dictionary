@@ -1,0 +1,10 @@
+{
+  "id": "sleeplatwehp",
+  "display_name": "Weekend Sleep Latency/Night from HP",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "HP",
+    "sleep_latency"
+  ]
+}

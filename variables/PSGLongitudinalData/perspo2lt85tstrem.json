@@ -1,9 +1,0 @@
-{
-  "id": "perspo2lt85tstrem",
-  "display_name": "PSG Percent of REM Total Sleep Time Oxygen Saturation Less than 85%",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

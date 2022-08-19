@@ -1,0 +1,10 @@
+{
+  "id": "meanhrsadherence2monthpos",
+  "display_name": "Mean Hours of CPAP Adherence 2 Months Prior to Visit - Denominator is Number of Possible Days",
+  "description": "",
+  "type": "numeric",
+  "units": "hours",
+  "labels": [
+    "Adherence"
+  ]
+}

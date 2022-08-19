@@ -1,9 +1,0 @@
-{
-  "id": "iqverb",
-  "display_name": "WASI Verbal IQ",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "WASI"
-  ]
-}

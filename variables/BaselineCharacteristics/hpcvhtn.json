@@ -1,9 +1,0 @@
-{
-  "id": "hpcvhtn",
-  "display_name": "Cardiovascular History from H&P- Hypertension: (0=None, 1=Resolved, 2=Ongoing)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

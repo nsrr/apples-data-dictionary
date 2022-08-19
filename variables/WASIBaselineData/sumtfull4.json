@@ -1,9 +1,0 @@
-{
-  "id": "sumtfull4",
-  "display_name": "WASI Sum of T Scores - Full 4= Verbal + Performance T Scores",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "WASI"
-  ]
-}

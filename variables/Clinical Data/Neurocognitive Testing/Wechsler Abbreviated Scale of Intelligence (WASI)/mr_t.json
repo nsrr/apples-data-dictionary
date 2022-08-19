@@ -1,0 +1,10 @@
+{
+  "id": "mr_t",
+  "display_name": "WASI Matrix Reasoning Subtest T Score",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "WASI",
+    "cognitive"
+  ]
+}

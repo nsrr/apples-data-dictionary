@@ -1,0 +1,10 @@
+{
+  "id": "height",
+  "display_name": "Height (inches) from HP",
+  "description": "",
+  "type": "numeric",
+  "units": "inches",
+  "labels": [
+    "HP"
+  ]
+}

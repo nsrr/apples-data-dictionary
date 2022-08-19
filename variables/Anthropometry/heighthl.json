@@ -1,0 +1,10 @@
+{
+  "id": "heighthl",
+  "display_name": "Height from Health Log",
+  "description": "",
+  "type": "numeric",
+  "units": "inches",
+  "labels": [
+    "HL"
+  ]
+}

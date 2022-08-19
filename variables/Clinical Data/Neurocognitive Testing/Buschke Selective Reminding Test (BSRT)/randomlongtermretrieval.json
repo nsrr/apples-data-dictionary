@@ -1,0 +1,10 @@
+{
+  "id": "randomlongtermretrieval",
+  "display_name": "Buschke Selective Reminding Test (BSRT) Random Long Term Retrieval",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "BSRT",
+    "cognitive"
+  ]
+}

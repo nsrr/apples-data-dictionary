@@ -1,9 +1,0 @@
-{
-  "id": "remnummapsg",
-  "display_name": "PSG Number of Mixed Apneas in REM",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

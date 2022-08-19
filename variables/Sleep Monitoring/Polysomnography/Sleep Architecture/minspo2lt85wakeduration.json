@@ -1,0 +1,11 @@
+{
+  "id": "minspo2lt85wakeduration",
+  "display_name": "Total duration of wake in bed associated with oxygen saturation less than 85% from type I polysomnography",
+  "description": "PSG Duration (min) of Wake where Oxygen Saturation Less than 85%",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "PSG",
+    "ttldurwk_salt85_f1t1"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hypindextstpsg",
+  "display_name": "PSG Hypopnea Index",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "PSG"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "meanhrsadherence2monthsc",
+  "display_name": "Mean Hours of CPAP Adherence 2 Months Prior to Visit - Denominator is Number of SmartCard Days",
+  "description": "",
+  "type": "numeric",
+  "units": "hours",
+  "labels": [
+    "Adherence"
+  ]
+}

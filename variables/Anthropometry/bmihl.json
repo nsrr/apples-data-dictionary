@@ -1,0 +1,10 @@
+{
+  "id": "bmihl",
+  "display_name": "Body Mass Index from Health Log",
+  "description": "",
+  "type": "numeric",
+  "units": "kilograms per square meter",
+  "labels": [
+    "HL"
+  ]
+}

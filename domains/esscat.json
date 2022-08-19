@@ -1,0 +1,64 @@
+[
+  {
+    "value": "0",
+    "display_name": "No chance of dozing",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Slight chance of dozing",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Moderate chance of dozing",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "High chance of dozing",
+    "description": ""
+  },
+  {
+    "value": "-1",
+    "display_name": "Accidental skip",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-2",
+    "display_name": "Does Not Apply",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-3",
+    "display_name": "Refused by Subject",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-4",
+    "display_name": "Excluded",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-5",
+    "display_name": "Withdrawn",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-6",
+    "display_name": "Dropped",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-7",
+    "display_name": "Disqualified",
+    "description": "",
+    "missing": true
+  }
+]

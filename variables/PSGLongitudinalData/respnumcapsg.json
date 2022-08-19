@@ -1,9 +1,0 @@
-{
-  "id": "respnumcapsg",
-  "display_name": "PSG Number of Respiratory Events - Central Apnea",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

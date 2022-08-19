@@ -1,9 +1,0 @@
-{
-  "id": "wkbefsleep",
-  "display_name": "PSG Wake Before Sleep Onset  (min) ",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

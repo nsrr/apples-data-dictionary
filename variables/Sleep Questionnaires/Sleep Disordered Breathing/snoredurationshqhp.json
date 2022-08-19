@@ -1,0 +1,13 @@
+{
+  "id": "snoredurationshqhp",
+  "display_name": "Duration of Snoring in Years from SHQ/HP",
+  "description": "",
+  "type": "numeric",
+  "units": "years",
+  "labels": [
+    "SHQ",
+    "HP",
+    "sdb",
+    "snore"
+  ]
+}

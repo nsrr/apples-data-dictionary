@@ -1,9 +1,0 @@
-{
-  "id": "saqliscore",
-  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Score",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SAQLI"
-  ]
-}

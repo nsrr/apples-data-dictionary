@@ -1,0 +1,10 @@
+{
+  "id": "totaldyad24",
+  "display_name": "Paced Auditory Serial Addition Task (PASAT) Total Dyad Responses - 2.4 second trial",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PASAT",
+    "cognitive"
+  ]
+}

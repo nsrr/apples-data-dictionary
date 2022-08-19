@@ -1,9 +1,0 @@
-{
-  "id": "consistentlongtermretrieval",
-  "display_name": "Buschke Selective Reminding Test (BSRT) Consistent Long Term Retrieval",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "BSRT"
-  ]
-}

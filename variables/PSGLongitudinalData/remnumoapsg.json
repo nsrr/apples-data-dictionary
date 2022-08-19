@@ -1,9 +1,0 @@
-{
-  "id": "remnumoapsg",
-  "display_name": "PSG Number of Obstructive Apneas in REM",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

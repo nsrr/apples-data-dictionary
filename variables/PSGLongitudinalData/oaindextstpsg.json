@@ -1,9 +1,0 @@
-{
-  "id": "oaindextstpsg",
-  "display_name": "PSG Obstructive Apnea Index",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "id": "oaindextstpsgcalc",
-  "display_name": "PSG Obstructive Apnea Index During Sleep",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

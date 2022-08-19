@@ -1,0 +1,69 @@
+[
+  {
+    "value": "1",
+    "display_name": "Definitely Evening Type",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Moderately Evening Type",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Neither Type",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Moderately Morning Type",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Definitely Morning Type",
+    "description": ""
+  },
+  {
+    "value": "-1",
+    "display_name": "Accidental skip",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-2",
+    "display_name": "Does Not Apply",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-3",
+    "display_name": "Refused by Subject",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-4",
+    "display_name": "Excluded",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-5",
+    "display_name": "Withdrawn",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-6",
+    "display_name": "Dropped",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-7",
+    "display_name": "Disqualified",
+    "description": "",
+    "missing": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "id": "triallength",
+  "display_name": "Psychomotor Vigilance Test (PVT) Trial Length",
+  "description": "PVT QC Rules 3-25-09 FINAL",
+  "type": "numeric",
+  "labels": [
+    "PVT",
+    "sleep_related_impairment"
+  ]
+}

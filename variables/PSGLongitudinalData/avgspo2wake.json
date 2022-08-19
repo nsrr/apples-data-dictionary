@@ -1,9 +1,0 @@
-{
-  "id": "avgspo2wake",
-  "display_name": "PSG Average O2 Saturation- Wake",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

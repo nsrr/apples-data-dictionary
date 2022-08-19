@@ -1,9 +1,0 @@
-{
-  "id": "desatindexrem",
-  "display_name": "PSG Desaturation Index - REM",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

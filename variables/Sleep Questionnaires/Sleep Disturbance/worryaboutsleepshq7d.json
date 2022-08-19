@@ -1,0 +1,12 @@
+{
+  "id": "worryaboutsleepshq7d",
+  "display_name": "SHQ Q7d: Worry About Sleep/Problems Sleeping (0=Never, 1=Rarely [1/month or less], 2=Sometimes [2-4/month], 3=Often [5-15/month], 4=Almost Always [16-30/month])",
+  "description": "",
+  "type": "choices",
+  "domain": "shqcat",
+  "labels": [
+    "SHQ",
+    "insomnia",
+    "sleep_satisfaction"
+  ]
+}

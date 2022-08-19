@@ -1,0 +1,11 @@
+{
+  "id": "arousalindexcalc",
+  "display_name": "Arousal Index: Number of arousals per hour of sleep from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "PSG",
+    "phrnumar_f1t1"
+  ]
+}

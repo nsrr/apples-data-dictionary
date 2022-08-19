@@ -1,0 +1,11 @@
+{
+  "id": "pertsts3psg",
+  "display_name": "Percentage of stage 3 sleep among total sleep duration from type I polysomnography",
+  "description": "Conventionally, total sleep duration would be called total sleep time (TST).",
+  "type": "numeric",
+  "units": "percentage",
+  "labels": [
+    "PSG",
+    "pctdursp_s3_f1t1"
+  ]
+}

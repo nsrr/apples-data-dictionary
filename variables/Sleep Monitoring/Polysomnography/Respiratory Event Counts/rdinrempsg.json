@@ -1,0 +1,10 @@
+{
+  "id": "rdinrempsg",
+  "display_name": "Total number of respiratory events in NREM sleep: (all apneas with no oxygen desaturation threshold used and with or without arousal + hypopneas with > 50% flow reduction and without oxygen desaturation threshold used and with or without arousal + hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation or with arousal) from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG",
+    "ttlnumah_sn_ap0uhp5x0u_ap0uhp3x3r_f1t1"
+  ]
+}

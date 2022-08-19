@@ -1,9 +1,0 @@
-{
-  "id": "bp1a_am",
-  "display_name": "AM Systolic Blood Presure 1st Measurement",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HL"
-  ]
-}

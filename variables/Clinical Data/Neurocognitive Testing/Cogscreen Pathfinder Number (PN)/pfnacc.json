@@ -1,0 +1,10 @@
+{
+  "id": "pfnacc",
+  "display_name": "Cogscreen Pathfinder Number (PN) Accurarcy",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PFNRTC",
+    "cognitive"
+  ]
+}

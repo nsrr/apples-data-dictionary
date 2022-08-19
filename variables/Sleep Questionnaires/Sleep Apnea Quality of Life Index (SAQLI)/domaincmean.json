@@ -1,0 +1,10 @@
+{
+  "id": "domaincmean",
+  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain C - Emotional Functioning Mean",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SAQLI",
+    "sdb"
+  ]
+}

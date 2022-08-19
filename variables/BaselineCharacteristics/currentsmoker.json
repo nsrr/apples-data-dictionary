@@ -1,9 +1,0 @@
-{
-  "id": "currentsmoker",
-  "display_name": "Current Smoker: 0=No, 1=Yes",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "SHQ"
-  ]
-}

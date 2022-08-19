@@ -1,0 +1,11 @@
+{
+  "id": "perspo2lt85tstnrem",
+  "display_name": "Percentage of sleep duration in NREM sleep associated with oxygen saturation less than 85% from type I polysomnography",
+  "description": "PSG Percent of NREM Total Sleep Time Oxygen Saturation Less than 85%",
+  "type": "numeric",
+  "units": "percentage",
+  "labels": [
+    "PSG",
+    "pctdursp_sn_salt85_f1t1"
+  ]
+}

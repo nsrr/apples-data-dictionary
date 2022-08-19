@@ -1,9 +1,0 @@
-{
-  "id": "meqtotalscore",
-  "display_name": "Morningness-Eveningness Questionnaire (MEQ) Total Score",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "MEQ"
-  ]
-}

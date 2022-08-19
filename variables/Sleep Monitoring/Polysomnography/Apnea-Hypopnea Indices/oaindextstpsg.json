@@ -1,0 +1,10 @@
+{
+  "id": "oaindextstpsg",
+  "display_name": "PSG Obstructive Apnea Index",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "PSG"
+  ]
+}

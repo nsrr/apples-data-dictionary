@@ -1,0 +1,10 @@
+{
+  "id": "sleepypost",
+  "display_name": "Psychomotor Vigilance Test (PVT) Sleepiness Post-test - Visual Analog Scale Rating (range 1-10)",
+  "description": "PVT QC Rules 3-25-09 FINAL",
+  "type": "numeric",
+  "labels": [
+    "PVT",
+    "sleep_related_impairment"
+  ]
+}

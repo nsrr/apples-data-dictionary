@@ -1,9 +1,0 @@
-{
-  "id": "plmcriteriaindex",
-  "display_name": "PSG PLM Index",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

@@ -1,0 +1,10 @@
+{
+  "id": "cden",
+  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain C - Emotional Functioning Denominator",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SAQLI",
+    "sdb"
+  ]
+}

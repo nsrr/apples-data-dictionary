@@ -1,9 +1,0 @@
-{
-  "id": "dayssincerandfradh",
-  "display_name": "Days Since Randomization",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "Adherence"
-  ]
-}

@@ -1,0 +1,10 @@
+{
+  "id": "domaindmean",
+  "display_name": "Sleep Apnea Quality of Life Index (SAQLI) Domain D - Symptoms Mean",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "SAQLI",
+    "sdb"
+  ]
+}

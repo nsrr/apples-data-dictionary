@@ -1,9 +1,0 @@
-{
-  "id": "totalcorr20",
-  "display_name": "PASAT Total Correct Responses - 2.0 second trial",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PASAT"
-  ]
-}

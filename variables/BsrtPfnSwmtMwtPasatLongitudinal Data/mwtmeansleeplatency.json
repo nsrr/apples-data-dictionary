@@ -1,9 +1,0 @@
-{
-  "id": "mwtmeansleeplatency",
-  "display_name": "Maintenance of Wakefullness Test (MWT) Mean Sleep Latency (min)",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "MWT"
-  ]
-}

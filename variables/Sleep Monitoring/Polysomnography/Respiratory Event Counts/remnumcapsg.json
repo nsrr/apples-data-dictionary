@@ -1,0 +1,10 @@
+{
+  "id": "remnumcapsg",
+  "display_name": "Total number of central apneas with no oxygen desaturation threshold used and with or without arousal in REM sleep from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG",
+    "ttlnumca_sr_ca0u_f1t1"
+  ]
+}

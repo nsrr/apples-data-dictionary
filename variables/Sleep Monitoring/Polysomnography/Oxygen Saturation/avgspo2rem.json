@@ -1,0 +1,11 @@
+{
+  "id": "avgspo2rem",
+  "display_name": "Average oxygen saturation in REM sleep from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "percentage",
+  "labels": [
+    "PSG",
+    "avglvlsa_sr_f1t1"
+  ]
+}

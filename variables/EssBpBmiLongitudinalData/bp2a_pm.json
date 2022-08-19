@@ -1,9 +1,0 @@
-{
-  "id": "bp2a_pm",
-  "display_name": "PM Systolic Blood Presure 2nd Measurement",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HL"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "id": "desatindexnrem",
-  "display_name": "PSG Desaturation Index - NREM",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

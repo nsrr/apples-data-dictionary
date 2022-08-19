@@ -1,0 +1,28 @@
+[
+  {
+    "value": "0",
+    "display_name": "Single",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Married",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Divorced",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Widowed",
+    "description": ""
+  },
+  {
+    "value": "-1",
+    "display_name": "Accidental skip",
+    "description": "",
+    "missing": true
+  }
+]

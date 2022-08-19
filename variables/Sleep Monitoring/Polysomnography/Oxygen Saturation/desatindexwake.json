@@ -1,0 +1,10 @@
+{
+  "id": "desatindexwake",
+  "display_name": "Average oxygen desaturation for all respiratory events while awake from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "PSG",
+    "avglvlds_sw_f1t1"
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "id": "weighthp",
-  "display_name": "Weight from 4M HP",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

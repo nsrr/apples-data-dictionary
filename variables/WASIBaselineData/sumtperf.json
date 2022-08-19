@@ -1,9 +1,0 @@
-{
-  "id": "sumtperf",
-  "display_name": "WASI Sum of T Scores - Performance= Block Design + Matrix Reasoning T Scores",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "WASI"
-  ]
-}

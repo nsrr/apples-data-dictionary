@@ -1,0 +1,39 @@
+[
+  {
+    "value": "0",
+    "display_name": "Never",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Rarely [1/month or less]",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Sometimes [2-4/month]",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Often [5-15/month]",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Almost Always [16-30/month]",
+    "description": ""
+  },
+  {
+    "value": "-1",
+    "display_name": "Accidental skip",
+    "description": "",
+    "missing": true
+  },
+  {
+    "value": "-2",
+    "display_name": "Does Not Apply",
+    "description": "",
+    "missing": true
+  }
+]

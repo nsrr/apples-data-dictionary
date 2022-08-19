@@ -1,9 +1,0 @@
-{
-  "id": "highestgradehp",
-  "display_name": "Years of Education from HP",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "HP"
-  ]
-}

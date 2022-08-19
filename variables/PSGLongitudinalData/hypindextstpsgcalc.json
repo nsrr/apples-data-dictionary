@@ -1,9 +1,0 @@
-{
-  "id": "hypindextstpsgcalc",
-  "display_name": "PSG Hypopnea Index During Sleep ",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

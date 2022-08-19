@@ -1,9 +1,0 @@
-{
-  "id": "rdinrempsg",
-  "display_name": "PSG Total Number of Respiratory Events During NREM Sleep",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}
