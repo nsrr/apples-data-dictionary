@@ -211,6 +211,85 @@
 *******************************************************************************;
 * create harmonized datasets ;
 *******************************************************************************;
+data apples_harmonized;
+  set apples_nsrr;
+
+*demographics
+*age;
+*use age;
+  format nsrr_age 8.2;
+  if age gt 89 then nsrr_age = 90;
+  else if age le 89 then nsrr_age = age;
+
+*age_gt89;
+*use age;
+  format nsrr_age_gt89 $100.; 
+  if age gt 89 then nsrr_age_gt89='yes';
+  else if age le 89 then nsrr_age_gt89='no';
+
+*sex;
+*use gender;
+  format nsrr_sex $100.;
+  if gender = '0)' then nsrr_sex = 'male';
+  else if gender = '1)' then nsrr_sex = 'female';
+  else if gender = '.' then nsrr_sex = 'not reported';
+
+*race;
+*use gierace;
+    format nsrr_race $100.;
+    if gierace = 1 then nsrr_race = 'white';
+    else if gierace = 2 then nsrr_race = 'black or african american';
+    else if gierace = 3 then nsrr_race = 'asian';
+    else if gierace = 4 then nsrr_race = 'hispanic';
+  else if gierace = 5 then nsrr_race = 'other';
+  else  nsrr_race = 'not reported';
+
+*ethnicity;
+*use gierace;
+  format nsrr_ethnicity $100.;
+    if gierace = 4 then nsrr_ethnicity = 'hispanic or latino';
+    else if gierace = 1 then nsrr_ethnicity = 'not hispanic or latino';
+  else if gierace = 2  then nsrr_ethnicity = 'not hispanic or latino';
+  else if gierace = 3   then nsrr_ethnicity = 'not hispanic or latino';
+  else if gierace = 5  then nsrr_ethnicity = 'not hispanic or latino';
+  else if gierace = '.' then nsrr_ethnicity = 'not reported';
+
+*anthropometry
+*bmi;
+*use hwbmi;
+  format nsrr_bmi 10.9;
+  nsrr_bmi = hwbmi;
+
+*clinical data/vital signs
+*bp_systolic;
+*use bpbpsysm;
+  format nsrr_bp_systolic 8.2;
+  nsrr_bp_systolic = bpbpsysm;
+
+*bp_diastolic;
+*use bpbpdiam;
+  format nsrr_bp_diastolic 8.2;
+  nsrr_bp_diastolic = bpbpdiam;
+
+*lifestyle and behavioral health
+*current_smoker;
+*use tusmknow;
+  format nsrr_current_smoker $100.;
+    if tusmknow = '1' then nsrr_current_smoker = 'yes';
+    else if tusmknow = '0' then nsrr_current_smoker = 'no';
+    else if tusmknow = 'A'  then nsrr_current_smoker = 'not reported';
+    else if tusmknow = 'D'  then nsrr_current_smoker = 'not reported';
+  else if tusmknow = 'K'  then nsrr_current_smoker = 'not reported';
+  else if tusmknow = 'M'  then nsrr_current_smoker = 'not reported';
+
+*ever_smoker;
+*use tursmoke;
+  format nsrr_ever_smoker $100.;
+    if tursmoke = '1' then nsrr_ever_smoker = 'yes';
+    else if tursmoke = '2' then nsrr_ever_smoker = 'yes';
+    else if tursmoke = '0'  then nsrr_ever_smoker = 'no';
+    else if tursmoke = 'A'  then nsrr_ever_smoker = 'not reported';
+  else nsrr_ever_smoker = 'not reported';
 
 
 *******************************************************************************;
