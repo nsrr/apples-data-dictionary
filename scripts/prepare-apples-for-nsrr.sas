@@ -235,61 +235,90 @@ data apples_harmonized;
   else if gender = '.' then nsrr_sex = 'not reported';
 
 *race;
-*use gierace;
+*use ethnicity;
     format nsrr_race $100.;
-    if gierace = 1 then nsrr_race = 'white';
-    else if gierace = 2 then nsrr_race = 'black or african american';
-    else if gierace = 3 then nsrr_race = 'asian';
-    else if gierace = 4 then nsrr_race = 'hispanic';
-  else if gierace = 5 then nsrr_race = 'other';
+    if ethnicity = 0) then nsrr_race = 'american indian or alaska native';
+    else if ethnicity = 1) then nsrr_race = 'asian';
+    else if ethnicity = 2) then nsrr_race = 'black or african american';
+    else if ethnicity = 3) then nsrr_race = 'hispanic';
+	else if ethnicity = 4) then nsrr_race = 'white';
+  else if ethnicity = 5 then nsrr_race = 'other';
   else  nsrr_race = 'not reported';
 
 *ethnicity;
-*use gierace;
+*use ethnicity;
   format nsrr_ethnicity $100.;
-    if gierace = 4 then nsrr_ethnicity = 'hispanic or latino';
-    else if gierace = 1 then nsrr_ethnicity = 'not hispanic or latino';
-  else if gierace = 2  then nsrr_ethnicity = 'not hispanic or latino';
-  else if gierace = 3   then nsrr_ethnicity = 'not hispanic or latino';
-  else if gierace = 5  then nsrr_ethnicity = 'not hispanic or latino';
-  else if gierace = '.' then nsrr_ethnicity = 'not reported';
+    if ethnicity = 3) then nsrr_ethnicity = 'hispanic or latino';
+    else if ethnicity = 0) then nsrr_ethnicity = 'not hispanic or latino';
+    else if ethnicity = 1)  then nsrr_ethnicity = 'not hispanic or latino';
+    else if ethnicity = 2)   then nsrr_ethnicity = 'not hispanic or latino';
+    else if ethnicity = 4)  then nsrr_ethnicity = 'not hispanic or latino';
+    else if ethnicity = 5)  then nsrr_ethnicity = 'not hispanic or latino';
+  else if ethnicity = '.' then nsrr_ethnicity = 'not reported';
 
 *anthropometry
 *bmi;
-*use hwbmi;
+*use bmiblquan;
   format nsrr_bmi 10.9;
-  nsrr_bmi = hwbmi;
+  if bmiblquan gt 0 then nsrr_bmi = bmiblquan;
+  else if age le 0 then nsrr_bmi = .;
 
 *clinical data/vital signs
-*bp_systolic;
-*use bpbpsysm;
+*bp1a_am_recode;
+*recode bp1a_am;
+  format bp1a_am_recode 10.9;
+  if bp1a_am gt 0 then bp1a_am_recode = bp1a_am;
+  else if bp1a_am le 0 then bp1a_am_recode = .;
+
+*bp2a_am_recode;
+*recode bp2a_am;
+  format bp2a_am_recode 10.9;
+  if bp2a_am gt 0 then bp2a_am_recode = bp2a_am;
+  else if bp2a_am le 0 then bp2a_am_recode = .;
+
+*bp1b_am_recode;
+*recode bp1b_am;
+  format bp1b_am_recode 10.9;
+  if bp1b_am gt 0 then bp1b_am_recode = bp1b_am;
+  else if bp1b_am le 0 then bp1b_am_recode = .;
+
+*bp2b_am_recode;
+*recode bp2b_am;
+  format bp2b_am_recode 10.9;
+  if bp2b_am gt 0 then bp2b_am_recode = bp2b_am;
+  else if bp2b_am le 0 then bp2b_am_recode = .;
+  
+*use bp1a_am_recode,bp2a_am_recode;
   format nsrr_bp_systolic 8.2;
-  nsrr_bp_systolic = bpbpsysm;
+  nsrr_bp_systolic = mean(bp1a_am_recode,bp2a_am_recode);
 
 *bp_diastolic;
-*use bpbpdiam;
+*use bp1b_am_recode,bp2b_am_recode;
   format nsrr_bp_diastolic 8.2;
-  nsrr_bp_diastolic = bpbpdiam;
+  nsrr_bp_diastolic = mean(bp1b_am_recode,bp2b_am_recode);
 
 *lifestyle and behavioral health
-*current_smoker;
-*use tusmknow;
-  format nsrr_current_smoker $100.;
-    if tusmknow = '1' then nsrr_current_smoker = 'yes';
-    else if tusmknow = '0' then nsrr_current_smoker = 'no';
-    else if tusmknow = 'A'  then nsrr_current_smoker = 'not reported';
-    else if tusmknow = 'D'  then nsrr_current_smoker = 'not reported';
-  else if tusmknow = 'K'  then nsrr_current_smoker = 'not reported';
-  else if tusmknow = 'M'  then nsrr_current_smoker = 'not reported';
 
 *ever_smoker;
-*use tursmoke;
+*use smokermedhxhp;
   format nsrr_ever_smoker $100.;
-    if tursmoke = '1' then nsrr_ever_smoker = 'yes';
-    else if tursmoke = '2' then nsrr_ever_smoker = 'yes';
-    else if tursmoke = '0'  then nsrr_ever_smoker = 'no';
-    else if tursmoke = 'A'  then nsrr_ever_smoker = 'not reported';
+    if smokermedhxhp = '1' then nsrr_ever_smoker = 'yes';
+    else if smokermedhxhp = '2' then nsrr_ever_smoker = 'yes';
+    else if smokermedhxhp = '0'  then nsrr_ever_smoker = 'no';
+    else if smokermedhxhp = 'A'  then nsrr_ever_smoker = 'not reported';
   else nsrr_ever_smoker = 'not reported';
+
+*current_smoker;
+*use currentsmoker;
+  format nsrr_current_smoker $100.;
+    if currentsmoker = '1' then nsrr_current_smoker = 'yes';
+    else if currentsmoker = '0' then nsrr_current_smoker = 'no';
+	else if smokermedhxhp = '2' then nsrr_current_smoker = 'yes';
+	else if smokermedhxhp = '1' then nsrr_current_smoker = 'no';
+	else if smokermedhxhp = '0' then nsrr_current_smoker = 'no';
+    else if currentsmoker = '-1' then nsrr_current_smoker = 'not reported';
+    else if currentsmoker = '-2' then nsrr_current_smoker = 'not reported';
+  else if currentsmoker = .  then nsrr_current_smoker = 'not reported';
 
 
 *******************************************************************************;
