@@ -216,7 +216,7 @@ data apples_harmonized;
 
 nsrrid=appleid;
 
-*demographics
+*demographics;
 *age;
 *use age;
   format nsrr_age 8.2;
@@ -232,40 +232,40 @@ nsrrid=appleid;
 *sex;
 *use gender;
   format nsrr_sex $100.;
-  if gender = '0)' then nsrr_sex = 'male';
-  else if gender = '1)' then nsrr_sex = 'female';
+  if gender = '0) male' then nsrr_sex = 'male';
+  else if gender = '1) female' then nsrr_sex = 'female';
   else if gender = '.' then nsrr_sex = 'not reported';
 
 *race;
 *use ethnicity;
     format nsrr_race $100.;
-    if ethnicity = 0) then nsrr_race = 'american indian or alaska native';
-    else if ethnicity = 1) then nsrr_race = 'asian';
-    else if ethnicity = 2) then nsrr_race = 'black or african american';
-    else if ethnicity = 3) then nsrr_race = 'hispanic';
-	else if ethnicity = 4) then nsrr_race = 'white';
-  else if ethnicity = 5 then nsrr_race = 'other';
+    if ethnicity = '0) Native American' then nsrr_race = 'american indian or alaska native';
+    else if ethnicity = '1) Asian' then nsrr_race = 'asian';
+    else if ethnicity = '2) Black' then nsrr_race = 'black or african american';
+    else if ethnicity = '3) Hispanic' then nsrr_race = 'hispanic';
+	else if ethnicity = '4) White' then nsrr_race = 'white';
+  else if ethnicity = '5) Other' then nsrr_race = 'other';
   else  nsrr_race = 'not reported';
 
 *ethnicity;
 *use ethnicity;
   format nsrr_ethnicity $100.;
-    if ethnicity = 3) then nsrr_ethnicity = 'hispanic or latino';
-    else if ethnicity = 0) then nsrr_ethnicity = 'not hispanic or latino';
-    else if ethnicity = 1)  then nsrr_ethnicity = 'not hispanic or latino';
-    else if ethnicity = 2)   then nsrr_ethnicity = 'not hispanic or latino';
-    else if ethnicity = 4)  then nsrr_ethnicity = 'not hispanic or latino';
-    else if ethnicity = 5)  then nsrr_ethnicity = 'not hispanic or latino';
+    if ethnicity = '3) Hispanic' then nsrr_ethnicity = 'hispanic or latino';
+    else if ethnicity = '0) Native American' then nsrr_ethnicity = 'not hispanic or latino';
+    else if ethnicity = '1) Asian'  then nsrr_ethnicity = 'not hispanic or latino';
+    else if ethnicity = '2) Black'   then nsrr_ethnicity = 'not hispanic or latino';
+    else if ethnicity = '4) White'  then nsrr_ethnicity = 'not hispanic or latino';
+    else if ethnicity = '5) Other'  then nsrr_ethnicity = 'not hispanic or latino';
   else if ethnicity = '.' then nsrr_ethnicity = 'not reported';
 
-*anthropometry
+*anthropometry;
 *bmi;
 *use bmiblquan;
   format nsrr_bmi 10.9;
   if bmiblquan gt 0 then nsrr_bmi = bmiblquan;
   else if age le 0 then nsrr_bmi = .;
 
-*clinical data/vital signs
+*clinical data/vital signs;
 *bp1a_am_recode;
 *recode bp1a_am;
   format bp1a_am_recode 10.9;
@@ -299,7 +299,7 @@ nsrrid=appleid;
   format nsrr_bp_diastolic 8.2;
   nsrr_bp_diastolic = mean(bp1b_am_recode,bp2b_am_recode);
 
-*lifestyle and behavioral health
+*lifestyle and behavioral health;
 
 *ever_smoker;
 *use smokermedhxhp;
