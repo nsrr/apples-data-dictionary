@@ -65,5 +65,11 @@
     "display_name": "Disqualified",
     "description": "",
     "missing": true
+  },
+  {
+    "value": "-9",
+    "display_name": "Missing Data",
+    "description": "",
+    "missing": true
   }
 ]

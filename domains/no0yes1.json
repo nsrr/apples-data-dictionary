@@ -20,5 +20,11 @@
     "display_name": "Does Not Apply",
     "description": "",
     "missing": true
+  },
+  {
+    "value": "-3",
+    "display_name": "Refused by Subject",
+    "description": "",
+    "missing": true
   }
 ]
