@@ -325,6 +325,7 @@ nsrrid=appleid;
 
   keep 
     nsrrid
+	visitn
     nsrr_age
     nsrr_age_gt89
     nsrr_sex
