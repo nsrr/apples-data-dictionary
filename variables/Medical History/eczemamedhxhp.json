@@ -1,6 +1,6 @@
 {
   "id": "eczemamedhxhp",
-  "display_name": "Eczema from HP Medical History:  (0=None, 1=Resolved, 2=Ongoing)",
+  "display_name": "Eczema from Medical history from Physician's History and Physical Form:  (0=None, 1=Resolved, 2=Ongoing)",
   "description": "",
   "type": "choices",
   "domain": "medhistory",

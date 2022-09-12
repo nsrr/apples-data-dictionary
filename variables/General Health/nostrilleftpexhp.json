@@ -1,6 +1,6 @@
 {
   "id": "nostrilleftpexhp",
-  "display_name": "Nose: Left Nostril from HP Physical Exam (0=Open, 1=Partial, 2=Complete)",
+  "display_name": "Nose: Left Nostril from Physical exam from Physician's History and Physical Form (0=Open, 1=Partial, 2=Complete)",
   "description": "",
   "type": "choices",
   "domain": "noseexam",

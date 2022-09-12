@@ -1,6 +1,6 @@
 {
   "id": "difficultrisinghp",
-  "display_name": "Refreshed in AM from HP (0=No, 1=Yes)",
+  "display_name": "Refreshed in AM from Physician's History and Physical Form (0=No, 1=Yes)",
   "description": "",
   "type": "choices",
   "domain": "no0yes1",

@@ -1,6 +1,6 @@
 {
   "id": "amheadacheshp",
-  "display_name": "AM Headaches from HP (0=No, 1=Yes)",
+  "display_name": "AM Headaches from Physician's History and Physical Form (0=No, 1=Yes)",
   "description": "",
   "type": "numeric",
   "domain": "no0yes1",

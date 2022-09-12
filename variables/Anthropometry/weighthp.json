@@ -1,6 +1,6 @@
 {
   "id": "weighthp",
-  "display_name": "Weight from 4M HP",
+  "display_name": "Weight from 4M Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "units": "pounds",

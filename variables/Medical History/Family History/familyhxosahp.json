@@ -1,6 +1,6 @@
 {
   "id": "familyhxosahp",
-  "display_name": "Family History of OSA from HP (0=No, 1=Yes)",
+  "display_name": "Family History of OSA from Physician's History and Physical Form (0=No, 1=Yes)",
   "description": "",
   "type": "choices",
   "domain": "no0yes1",

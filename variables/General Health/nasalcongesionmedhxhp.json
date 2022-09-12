@@ -1,6 +1,6 @@
 {
   "id": "nasalcongesionmedhxhp",
-  "display_name": "Nasal Congestion from HP Medical History:  (0=None, 1=Resolved, 2=Ongoing)",
+  "display_name": "Nasal Congestion from Medical history from Physician's History and Physical Form:  (0=None, 1=Resolved, 2=Ongoing)",
   "description": "",
   "type": "choices",
   "domain": "medhistory",

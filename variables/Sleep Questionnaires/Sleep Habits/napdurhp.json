@@ -1,6 +1,6 @@
 {
   "id": "napdurhp",
-  "display_name": "Nap Duration from HP",
+  "display_name": "Nap Duration from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "labels": [

@@ -1,6 +1,6 @@
 {
   "id": "maritalstatushp",
-  "display_name": "Marital Status from HP: 0=Single, 1=Married, 2=Divorced, 3=Widowed",
+  "display_name": "Marital Status from Physician's History and Physical Form: 0=Single, 1=Married, 2=Divorced, 3=Widowed",
   "description": "",
   "type": "choices",
   "domain": "marital",

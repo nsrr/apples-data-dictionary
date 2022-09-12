@@ -1,6 +1,6 @@
 {
   "id": "sleeplatwehp",
-  "display_name": "Weekend Sleep Latency/Night from HP",
+  "display_name": "Weekend Sleep Latency/Night from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "labels": [

@@ -1,6 +1,6 @@
 {
   "id": "neckcircinchhp",
-  "display_name": "Neck Circumference in Inches from HP Physical Exam",
+  "display_name": "Neck Circumference in Inches from Physical exam from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "units": "inches",

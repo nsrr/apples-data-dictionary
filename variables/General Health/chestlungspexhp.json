@@ -1,6 +1,6 @@
 {
   "id": "chestlungspexhp",
-  "display_name": "Body System: Chest/Lungs from HP Physical Exam (0=Normal, 1=Abnormal, 2=Not Done)",
+  "display_name": "Body System: Chest/Lungs from Physical exam from Physician's History and Physical Form (0=Normal, 1=Abnormal, 2=Not Done)",
   "description": "",
   "type": "choices",
   "domain": "phyexam",

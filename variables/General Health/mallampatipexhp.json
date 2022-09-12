@@ -1,6 +1,6 @@
 {
   "id": "mallampatipexhp",
-  "display_name": "Oral/Throat: Mallampati Score from HP Physical Exam (1 to 4)",
+  "display_name": "Oral/Throat: Mallampati Score from Physical exam from Physician's History and Physical Form (1 to 4)",
   "description": "",
   "type": "numeric",
   "labels": [

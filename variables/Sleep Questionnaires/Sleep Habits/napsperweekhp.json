@@ -1,6 +1,6 @@
 {
   "id": "napsperweekhp",
-  "display_name": "Number of Naps/Week from HP",
+  "display_name": "Number of Naps/Week from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "labels": [

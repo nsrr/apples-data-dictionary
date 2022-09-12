@@ -1,6 +1,6 @@
 {
   "id": "cigarettehistorypkyrs",
-  "display_name": "Cigarette History (pack-years) from HP",
+  "display_name": "Cigarette History (pack-years) from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "labels": [

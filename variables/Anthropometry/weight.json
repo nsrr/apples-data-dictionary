@@ -1,6 +1,6 @@
 {
   "id": "weight",
-  "display_name": "Weight (pounds) from HP",
+  "display_name": "Weight (pounds) from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "units": "pounds",

@@ -1,6 +1,6 @@
 {
   "id": "highestgradehp",
-  "display_name": "Years of Education from HP",
+  "display_name": "Years of Education from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "units": "years",

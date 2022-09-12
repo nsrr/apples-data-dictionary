@@ -1,6 +1,6 @@
 {
   "id": "snoredurationshqhp",
-  "display_name": "Duration of Snoring in Years from SHQ/HP",
+  "display_name": "Duration of Snoring in Years from SHQ/Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "units": "years",

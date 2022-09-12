@@ -1,6 +1,6 @@
 {
   "id": "waisttohipratiohp",
-  "display_name": "Waist to Hip Ratio Derived from HP Physical Exam",
+  "display_name": "Waist to Hip Ratio Derived from Physical exam from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "labels": [

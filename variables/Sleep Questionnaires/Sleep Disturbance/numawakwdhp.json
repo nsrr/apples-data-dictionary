@@ -1,6 +1,6 @@
 {
   "id": "numawakwdhp",
-  "display_name": "Weekday Number of Awakenings/Night from HP",
+  "display_name": "Weekday Number of Awakenings/Night from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "labels": [

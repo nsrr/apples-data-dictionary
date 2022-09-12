@@ -1,6 +1,6 @@
 {
   "id": "tonsillargradepexhp",
-  "display_name": "Oral/Throat: Tonsillar Grade from HP Physical Exam (1 to 5)",
+  "display_name": "Oral/Throat: Tonsillar Grade from Physical exam from Physician's History and Physical Form (1 to 5)",
   "description": "",
   "type": "numeric",
   "labels": [

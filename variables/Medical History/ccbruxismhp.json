@@ -1,6 +1,6 @@
 {
   "id": "ccbruxismhp",
-  "display_name": "Bruxism from HP (0=No, 1=Yes)",
+  "display_name": "Bruxism from Physician's History and Physical Form (0=No, 1=Yes)",
   "description": "",
   "type": "choices",
   "domain": "no0yes1",

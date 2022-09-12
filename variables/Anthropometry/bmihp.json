@@ -1,6 +1,6 @@
 {
   "id": "bmihp",
-  "display_name": "Body Mass Index from HP",
+  "display_name": "Body Mass Index from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
   "units": "kilograms per square meter",
