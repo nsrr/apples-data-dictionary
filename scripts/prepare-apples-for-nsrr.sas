@@ -247,16 +247,7 @@ nsrrid=appleid;
   else if ethnicity = '5) Other' then nsrr_race = 'other';
   else  nsrr_race = 'not reported';
 
-*ethnicity;
-*use ethnicity;
-  format nsrr_ethnicity $100.;
-    if ethnicity = '3) Hispanic' then nsrr_ethnicity = 'hispanic or latino';
-    else if ethnicity = '0) Native American' then nsrr_ethnicity = 'not hispanic or latino';
-    else if ethnicity = '1) Asian'  then nsrr_ethnicity = 'not hispanic or latino';
-    else if ethnicity = '2) Black'   then nsrr_ethnicity = 'not hispanic or latino';
-    else if ethnicity = '4) White'  then nsrr_ethnicity = 'not hispanic or latino';
-    else if ethnicity = '5) Other'  then nsrr_ethnicity = 'not hispanic or latino';
-  else if ethnicity = '.' then nsrr_ethnicity = 'not reported';
+drop ethnicity;
 
 *anthropometry;
 *bmi;
@@ -330,7 +321,6 @@ nsrrid=appleid;
     nsrr_age_gt89
     nsrr_sex
     nsrr_race
-    nsrr_ethnicity
     nsrr_bmi
     nsrr_bp_systolic
     nsrr_bp_diastolic
@@ -357,7 +347,6 @@ proc freq data=apples_harmonized;
 table   nsrr_age_gt89
     nsrr_sex
     nsrr_race
-    nsrr_ethnicity
     nsrr_current_smoker
     nsrr_ever_smoker;
 run;
