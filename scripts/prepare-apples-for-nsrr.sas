@@ -140,6 +140,10 @@
     *'empty' visit rows in BSRT and PVT datasets - remove these empty rows entirely;
     if visit = '' then delete;
 
+	*remove unrealistic values for bmi;
+    if bmiblquan = -704.47 then bmiblquan = .;
+	if bmihl = -704.47 then bmihl = .;
+
     *create numbered visit variable for sorting in chronological order based on APPLES dictionary;
     if visit = 'BL' then visitn = 1;
     else if visit = 'CE' then visitn = 2;
