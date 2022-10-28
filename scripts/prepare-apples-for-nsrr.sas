@@ -164,6 +164,14 @@
     drop 
       id /* evidently a per-dataset row indicator */
       studytype /* all values 'PSG', not helpful */
+	  caindextstpsgcalc /* drop duplicated var*/
+	  hypindextstpsgcalc /* drop duplicated var*/
+	  maindextstpsgcalc /* drop duplicated var*/
+	  oaindextstpsgcalc /* drop duplicated var*/
+	  minimumspo2withoutscqc /* drop duplicated and less clearly defined var*/
+	  wkbefsleep /* drop duplicated var*/
+	  wkaftsleep /* drop duplicated var*/
+	  wkdursleep /* drop duplicated var*/
       ;
   run;
 
@@ -318,6 +326,23 @@ drop ethnicity;
     else if currentsmoker = '-2' then nsrr_current_smoker = 'not reported';
   else if currentsmoker = .  then nsrr_current_smoker = 'not reported';
 
+*polysomnography;
+*nsrr_ahi_chicago1999;
+*use rditstpsg;
+  format nsrr_ahi_chicago1999 8.2;
+  nsrr_ahi_chicago1999 = rditstpsg;
+
+*nsrr_ttldursp_f1;
+*use tstpsg;
+  format nsrr_ttldursp_f1 8.2;
+  nsrr_ttldursp_f1 = tstpsg;
+  
+*nsrr_phrnumar_f1;
+*use arousalindexcalc;
+  format nsrr_phrnumar_f1 8.2;
+  nsrr_phrnumar_f1 = arousalindexcalc;  
+  
+  
   keep 
     nsrrid
 	visitn
@@ -330,6 +355,9 @@ drop ethnicity;
     nsrr_bp_diastolic
     nsrr_current_smoker
     nsrr_ever_smoker
+	nsrr_ahi_chicago1999
+	nsrr_ttldursp_f1
+	nsrr_phrnumar_f1
     ;
 run;
 *******************************************************************************;
@@ -342,6 +370,9 @@ VAR   nsrr_age
     nsrr_bmi
     nsrr_bp_systolic
     nsrr_bp_diastolic
+	nsrr_ahi_chicago1999
+	nsrr_ttldursp_f1
+	nsrr_phrnumar_f1
 	;
 run;
 

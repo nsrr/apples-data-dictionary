@@ -5,7 +5,6 @@
   "type": "numeric",
   "units": "minutes",
   "labels": [
-    "PSG",
     "ttldursp_salt85_f1t1"
   ]
 }

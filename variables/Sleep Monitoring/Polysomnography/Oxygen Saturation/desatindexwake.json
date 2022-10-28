@@ -4,7 +4,6 @@
   "description": "",
   "type": "numeric",
   "labels": [
-    "PSG",
     "avglvlds_sw_f1t1"
   ]
 }

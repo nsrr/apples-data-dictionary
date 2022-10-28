@@ -1,10 +1,9 @@
 {
   "id": "rdirempsgnum",
-  "display_name": "PSG Respiratory Disturbance Index in REM",
+  "display_name": "Total number of respiratory events in REM from Type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events per hour",
   "labels": [
-    "PSG"
+    "ttlnumap_sr_f1t1"
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "id": "minimumspo2withoutscqc",
-  "display_name": "PSG Minimum of Resp event SaO2 minumum levels QC (%) without NADIR QC as designated by SC",
-  "description": "",
-  "type": "numeric",
-  "labels": [
-    "PSG"
-  ]
-}

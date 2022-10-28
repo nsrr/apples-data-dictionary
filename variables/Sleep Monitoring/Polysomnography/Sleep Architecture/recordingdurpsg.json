@@ -4,7 +4,6 @@
   "description": "",
   "type": "numeric",
   "labels": [
-    "PSG",
     "ttlprdrd_f1t1"
   ]
 }

@@ -5,7 +5,6 @@
   "type": "numeric",
   "units": "limb movements per hour",
   "labels": [
-    "PSG",
     "phrnumpl_sp_f1t1"
   ]
 }

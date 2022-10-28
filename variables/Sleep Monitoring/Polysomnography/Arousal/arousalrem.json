@@ -1,11 +1,9 @@
 {
   "id": "arousalrem",
-  "display_name": "Arousal Index: Number of arousals per hour of REM sleep from type I polysomnography",
+  "display_name": "Total number of arousals during REM sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events per hour",
   "labels": [
-    "PSG",
-    "phrnumar_sr_f1t1"
+    "ttlnumar_sr_f1t1"
   ]
 }

@@ -5,7 +5,6 @@
   "type": "numeric",
   "units": "percentage",
   "labels": [
-    "PSG",
     "pctdursp_s3_f1t1"
   ]
 }

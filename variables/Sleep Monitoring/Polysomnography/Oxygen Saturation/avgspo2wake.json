@@ -5,7 +5,6 @@
   "type": "numeric",
   "units": "percentage",
   "labels": [
-    "PSG",
     "avglvlsa_sw_f1t1"
   ]
 }

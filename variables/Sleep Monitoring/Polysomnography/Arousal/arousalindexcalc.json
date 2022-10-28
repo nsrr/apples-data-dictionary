@@ -5,7 +5,6 @@
   "type": "numeric",
   "units": "events per hour",
   "labels": [
-    "PSG",
     "phrnumar_f1t1"
   ]
 }

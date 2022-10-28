@@ -1,10 +1,10 @@
 {
   "id": "oaindextstpsg",
-  "display_name": "PSG Obstructive Apnea Index",
+  "display_name": "Obstructive Apnea Index: (Obstructive apneas with no oxygen desaturation threshold used and with or without arousal) / hour of sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
   "units": "events per hour",
   "labels": [
-    "PSG"
+    "oai_oa0u_f1t1"
   ]
 }

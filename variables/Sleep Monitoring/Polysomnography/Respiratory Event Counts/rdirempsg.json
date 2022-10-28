@@ -1,10 +1,9 @@
 {
   "id": "rdirempsg",
-  "display_name": "Total number of respiratory events in REM sleep: (all apneas with no oxygen desaturation threshold used and with or without arousal + hypopneas with > 50% flow reduction and without oxygen desaturation threshold used and with or without arousal + hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation or with arousal) from type I polysomnography",
+  "display_name": "Apnea-Hypopnea Index (REM): (All apneas with no oxygen desaturation threshold used and with or without arousal + hypopneas with > 50% flow reduction and without oxygen desaturation threshold used and with or without arousal + hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation or with arousal) / hour of NREM sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
   "labels": [
-    "PSG",
-    "ttlnumah_sr_ap0uhp5x0u_ap0uhp3x3r_f1t1"
+    "ahi_sr_ap0uhp5x0u_ap0uhp3x3r_f1t1"
   ]
 }
