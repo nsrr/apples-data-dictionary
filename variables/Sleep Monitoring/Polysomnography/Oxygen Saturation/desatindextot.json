@@ -1,9 +1,6 @@
 {
   "id": "desatindextot",
-  "display_name": "Average oxygen desaturation for all respiratory events from type I polysomnography",
+  "display_name": "Oxygen Desaturation Index: Oxygen desaturation associated with respiratory events per hour of sleep from type I polysomnography",
   "description": "",
-  "type": "numeric",
-  "labels": [
-    "avglvlds_f1t1"
-  ]
+  "type": "numeric"
 }

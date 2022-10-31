@@ -1,0 +1,6 @@
+{
+  "id": "minimumspo2withoutscqc",
+  "display_name": "Minimum oxygen saturation nadir associated with respiratory events without NADIR QC as designated by the steering committee from type I polysomnography",
+  "description": "",
+  "type": "numeric"
+}

@@ -168,7 +168,7 @@
 	  hypindextstpsgcalc /* drop duplicated var*/
 	  maindextstpsgcalc /* drop duplicated var*/
 	  oaindextstpsgcalc /* drop duplicated var*/
-	  minimumspo2withoutscqc /* drop duplicated and less clearly defined var*/
+	  desatindexwake /* drop duplicated and less clearly defined var*/
 	  wkbefsleep /* drop duplicated var*/
 	  wkaftsleep /* drop duplicated var*/
 	  wkdursleep /* drop duplicated var*/

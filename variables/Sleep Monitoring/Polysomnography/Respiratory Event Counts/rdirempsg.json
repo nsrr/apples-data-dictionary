@@ -1,6 +1,6 @@
 {
   "id": "rdirempsg",
-  "display_name": "Apnea-Hypopnea Index (REM): (All apneas with no oxygen desaturation threshold used and with or without arousal + hypopneas with > 50% flow reduction and without oxygen desaturation threshold used and with or without arousal + hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation or with arousal) / hour of NREM sleep from type I polysomnography",
+  "display_name": "Apnea-Hypopnea Index (REM): (All apneas with no oxygen desaturation threshold used and with or without arousal + hypopneas with > 50% flow reduction and without oxygen desaturation threshold used and with or without arousal + hypopneas with > 30% flow reduction and with >= 3% oxygen desaturation or with arousal) / hour of REM sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
   "labels": [

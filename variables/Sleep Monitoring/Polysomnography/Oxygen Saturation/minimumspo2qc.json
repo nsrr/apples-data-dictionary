@@ -1,6 +1,6 @@
 {
   "id": "minimumspo2qc",
-  "display_name": "PSG Minimum of Resp event SaO2 minumum levels QC (%) with NADIR QC as designated by the steering committee",
+  "display_name": "Minimum oxygen saturation nadir associated with respiratory events with NADIR QC as designated by the steering committee from type I polysomnography",
   "description": "",
   "type": "numeric"
 }

@@ -1,6 +1,6 @@
 {
   "id": "rdirempsgnum",
-  "display_name": "Total number of respiratory events in REM from Type I polysomnography",
+  "display_name": "Total number of respiratory events in REM from type I polysomnography",
   "description": "",
   "type": "numeric",
   "labels": [
