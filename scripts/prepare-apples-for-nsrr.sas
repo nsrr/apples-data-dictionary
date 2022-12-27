@@ -330,18 +330,83 @@ drop ethnicity;
 *nsrr_ahi_chicago1999;
 *use rditstpsg;
   format nsrr_ahi_chicago1999 8.2;
-  nsrr_ahi_chicago1999 = rditstpsg;
+  if rditstpsg gt 0 then nsrr_ahi_chicago1999 = rditstpsg;
+  else if rditstpsg le 0 then nsrr_ahi_chicago1999 = .;
 
 *nsrr_ttldursp_f1;
 *use tstpsg;
   format nsrr_ttldursp_f1 8.2;
-  nsrr_ttldursp_f1 = tstpsg;
+  if tstpsg gt 0 then nsrr_ttldursp_f1 = tstpsg;
+  else if tstpsg le 0 then nsrr_ttldursp_f1 = .;
   
 *nsrr_phrnumar_f1;
 *use arousalindexcalc;
   format nsrr_phrnumar_f1 8.2;
-  nsrr_phrnumar_f1 = arousalindexcalc;  
+  if arousalindexcalc gt 0 then nsrr_phrnumar_f1 = arousalindexcalc;
+  else if arousalindexcalc le 0 then nsrr_phrnumar_f1 = .;
   
+*nsrr_ttleffsp_f1;
+*use sleepeffpsg;
+  format nsrr_ttleffsp_f1 8.2;
+  if sleepeffpsg gt 0 then nsrr_ttleffsp_f1 = sleepeffpsg;
+  else if sleepeffpsg le 0 then nsrr_ttleffsp_f1 = .;
+
+*nsrr_ttllatsp_f1;
+*use soflopsg;
+  format nsrr_ttllatsp_f1 8.2;
+  if soflopsg gt 0 then nsrr_ttllatsp_f1 = soflopsg;
+  else if soflopsg le 0 then nsrr_ttllatsp_f1 = .;
+
+*nsrr_ttlprdsp_s1s4;
+*use soremfsopsg;
+  format nsrr_ttlprdsp_s1s4 8.2;
+  if soremfsopsg gt 0 then nsrr_ttlprdsp_s1s4 = soremfsopsg;
+  else if soremfsopsg le 0 then nsrr_ttlprdsp_s1s4 = .;
+
+*nsrr_ttldurws_f1;
+*use wasoqcpsg;
+  format nsrr_ttldurws_f1 8.2;
+  if wasoqcpsg gt 0 then nsrr_ttldurws_f1 = wasoqcpsg;
+  else if wasoqcpsg le 0 then nsrr_ttldurws_f1 = .;
+
+*nsrr_pctdursp_s1;
+*use pertsts1psg;
+  format nsrr_pctdursp_s1 8.2;
+  if pertsts1psg gt 0 then nsrr_pctdursp_s1 = pertsts1psg;
+  else if pertsts1psg le 0 then nsrr_pctdursp_s1 = .;
+   
+*nsrr_pctdursp_s2;
+*use pertsts2psg;
+  format nsrr_pctdursp_s2 8.2;
+  if pertsts2psg gt 0 then nsrr_pctdursp_s2 = pertsts2psg;
+  else if pertsts2psg le 0 then nsrr_pctdursp_s2 = .;
+
+*recode pertsts3psg;
+  format pertsts3psg_recode 8.2;
+  if pertsts3psg gt 0 then pertsts3psg_recode = pertsts3psg;
+  else if pertsts3psg le 0 then pertsts3psg_recode = .;
+
+*recode pertsts4psg;
+  format pertsts4psg_recode 8.2;
+  if pertsts4psg gt 0 then pertsts4psg_recode = pertsts4psg;
+  else if pertsts4psg le 0 then pertsts4psg_recode = .;
+  
+*nsrr_pctdursp_s3;
+*use pertsts3psg and pertsts4psg;
+  format nsrr_pctdursp_s3 8.2;
+  nsrr_pctdursp_s3 = pertsts3psg_recode+pertsts4psg_recode;
+  
+*nsrr_pctdursp_sr;
+*use pertstrempsg;
+  format nsrr_pctdursp_sr 8.2;  
+  if pertstrempsg gt 0 then nsrr_pctdursp_sr = pertstrempsg;
+  else if pertstrempsg le 0 then nsrr_pctdursp_sr = .;
+  
+*nsrr_ttlprdbd_f1;
+*use tibpsg;
+  format nsrr_ttlprdbd_f1 8.2;
+  if tibpsg gt 0 then nsrr_ttlprdbd_f1 = tibpsg;
+  else if tibpsg le 0 then nsrr_ttlprdbd_f1 = .; 
   
   keep 
     nsrrid
@@ -358,6 +423,15 @@ drop ethnicity;
 	nsrr_ahi_chicago1999
 	nsrr_ttldursp_f1
 	nsrr_phrnumar_f1
+	nsrr_ttleffsp_f1
+	nsrr_ttllatsp_f1
+	nsrr_ttlprdsp_s1s4
+	nsrr_ttldurws_f1
+	nsrr_pctdursp_s1
+	nsrr_pctdursp_s2
+	nsrr_pctdursp_s3
+	nsrr_pctdursp_sr
+	nsrr_ttlprdbd_f1
     ;
 run;
 *******************************************************************************;
@@ -373,6 +447,16 @@ VAR   nsrr_age
 	nsrr_ahi_chicago1999
 	nsrr_ttldursp_f1
 	nsrr_phrnumar_f1
+	nsrr_phrnumar_f1
+	nsrr_ttleffsp_f1
+	nsrr_ttllatsp_f1
+	nsrr_ttlprdsp_s1s4
+	nsrr_ttldurws_f1
+	nsrr_pctdursp_s1
+	nsrr_pctdursp_s2
+	nsrr_pctdursp_s3
+	nsrr_pctdursp_sr
+	nsrr_ttlprdbd_f1
 	;
 run;
 
