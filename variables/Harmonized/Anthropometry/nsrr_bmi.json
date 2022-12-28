@@ -5,6 +5,6 @@
   "type": "numeric",
   "units": "kilograms per square meter",
   "labels": [
-    "bmi_baseline_1"
+    "bmi"
   ]
 }

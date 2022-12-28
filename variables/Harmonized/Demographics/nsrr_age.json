@@ -5,6 +5,6 @@
   "type": "numeric",
   "units": "years",
   "labels": [
-    "age_at_index"
+    "age"
   ]
 }
