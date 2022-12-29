@@ -425,7 +425,7 @@ drop ethnicity;
 	nsrr_phrnumar_f1
 	nsrr_ttleffsp_f1
 	nsrr_ttllatsp_f1
-	nsrr_ttlprdsp_s1s4
+	nsrr_ttlprdsp_s1sr
 	nsrr_ttldurws_f1
 	nsrr_pctdursp_s1
 	nsrr_pctdursp_s2
@@ -450,7 +450,7 @@ VAR   nsrr_age
 	nsrr_phrnumar_f1
 	nsrr_ttleffsp_f1
 	nsrr_ttllatsp_f1
-	nsrr_ttlprdsp_s1s4
+	nsrr_ttlprdsp_s1sr
 	nsrr_ttldurws_f1
 	nsrr_pctdursp_s1
 	nsrr_pctdursp_s2
