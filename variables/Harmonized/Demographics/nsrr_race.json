@@ -6,5 +6,6 @@
   "domain": "nsrr_race",
   "labels": [
     "race"
-  ]
+  ],
+  "commonly_used": true
 }

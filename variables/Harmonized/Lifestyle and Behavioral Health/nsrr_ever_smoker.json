@@ -7,5 +7,6 @@
   "labels": [
     "ever_smoker",
     "smoking"
-  ]
+  ],
+  "commonly_used": true
 }

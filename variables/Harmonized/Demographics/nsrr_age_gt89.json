@@ -6,5 +6,6 @@
   "domain": "nsrr_age_gt89",
   "labels": [
     "age_gt89"
-  ]
+  ],
+  "commonly_used": true
 }

@@ -6,5 +6,6 @@
   "units": "millimeters of mercury",
   "labels": [
     "bp_diastolic"
-  ]
+  ],
+  "commonly_used": true
 }
