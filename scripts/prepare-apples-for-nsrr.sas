@@ -23,7 +23,7 @@
   libname applesa "\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20220301-kushida-apples\nsrr-prep\_archive";
 
   *nsrr id location;
-  libname applesi "\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20220301-kushida-apples\nsrr-prep\_ids";
+  *libname applesi "\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20220301-kushida-apples\nsrr-prep\_ids";
 
   *set data dictionary version;
   %let version = 0.1.0.pre;
