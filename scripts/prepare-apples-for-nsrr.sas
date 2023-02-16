@@ -122,9 +122,20 @@
     by appleid visit;
   run;
 
+  proc import datafile="&applessource\APPLEID-OriginalFileID.csv"
+    out=apples_original_file_id_in
+    dbms=csv
+    replace;
+    guessingrows=1000;
+  run;
+
+  proc sort data=apples_original_file_id_in nodupkey;
+    by appleid;
+  run;
+
   *merge datasets;
   data apples_in;
-    length appleid $7 visitn 8. visit $4;
+    length appleid $7. visitn 8. visit $4. fileid $25. site $6.;
     merge
       apples_bl_char_in
       apples_wasi_in
@@ -140,9 +151,9 @@
     *'empty' visit rows in BSRT and PVT datasets - remove these empty rows entirely;
     if visit = '' then delete;
 
-	*remove unrealistic values for bmi;
+  *remove unrealistic values for bmi;
     if bmiblquan = -704.47 then bmiblquan = .;
-	if bmihl = -704.47 then bmihl = .;
+  if bmihl = -704.47 then bmihl = .;
 
     *create numbered visit variable for sorting in chronological order based on APPLES dictionary;
     if visit = 'BL' then visitn = 1;
@@ -164,14 +175,14 @@
     drop 
       id /* evidently a per-dataset row indicator */
       studytype /* all values 'PSG', not helpful */
-	  caindextstpsgcalc /* drop duplicated var*/
-	  hypindextstpsgcalc /* drop duplicated var*/
-	  maindextstpsgcalc /* drop duplicated var*/
-	  oaindextstpsgcalc /* drop duplicated var*/
-	  desatindexwake /* drop duplicated and less clearly defined var*/
-	  wkbefsleep /* drop duplicated var*/
-	  wkaftsleep /* drop duplicated var*/
-	  wkdursleep /* drop duplicated var*/
+    caindextstpsgcalc /* drop duplicated var*/
+    hypindextstpsgcalc /* drop duplicated var*/
+    maindextstpsgcalc /* drop duplicated var*/
+    oaindextstpsgcalc /* drop duplicated var*/
+    desatindexwake /* drop duplicated and less clearly defined var*/
+    wkbefsleep /* drop duplicated var*/
+    wkaftsleep /* drop duplicated var*/
+    wkdursleep /* drop duplicated var*/
       ;
   run;
 
@@ -179,14 +190,32 @@
     by appleid visitn;
   run;
 
+  data apples_fileid_in;
+    length appleid $7. visitn 8. visit $4. fileid $25. site $6.;
+    merge 
+      apples_in
+      apples_original_file_id_in
+      ;
+    by appleid;
+    
+    if original_fileid ne . and visitn in (1,2,3) then fileid = "apples-" || compress(put(original_fileid,8.));
+
+    drop original_fileid /* converted to 'fileid' */ ;
+  run;
+
+  proc sort data=apples_fileid_in;
+    by appleid visitn;
+  run;
+
   data apples_retain;
-    set apples_in;
+    set apples_fileid_in;
     by appleid;
 
-    retain gender2 ethnicity2;
+    retain gender2 ethnicity2 site2;
     if first.appleid then do;
       gender2 = gender;
       ethnicity2 = ethnicity;
+      site2 = site;
     end;
   run;
 
@@ -195,10 +224,12 @@
 
     gender = gender2;
     ethnicity = ethnicity2;
+    site = site2;
 
     drop
       gender2
       ethnicity2
+      site2
       ;
   run;
 
@@ -224,9 +255,10 @@
 * create harmonized datasets ;
 *******************************************************************************;
 data apples_harmonized;
+  length nsrrid $9. visitn 8. fileid $25. site $6.;
   set apples_nsrr;
 
-nsrrid=appleid;
+  nsrrid=appleid;
 
 *demographics;
 *age;
@@ -255,7 +287,7 @@ nsrrid=appleid;
     else if ethnicity = '1) Asian' then nsrr_race = 'asian';
     else if ethnicity = '2) Black' then nsrr_race = 'black or african american';
     else if ethnicity = '3) Hispanic' then nsrr_race = 'hispanic';
-	else if ethnicity = '4) White' then nsrr_race = 'white';
+  else if ethnicity = '4) White' then nsrr_race = 'white';
   else if ethnicity = '5) Other' then nsrr_race = 'other';
   else  nsrr_race = 'not reported';
 
@@ -311,7 +343,7 @@ drop ethnicity;
     else if smokermedhxhp = '2' then nsrr_ever_smoker = 'yes';
     else if smokermedhxhp = '0'  then nsrr_ever_smoker = 'no';
     else if smokermedhxhp = '-1'  then nsrr_ever_smoker = 'not reported';
-	else if smokermedhxhp = '-2'  then nsrr_ever_smoker = 'not reported';
+  else if smokermedhxhp = '-2'  then nsrr_ever_smoker = 'not reported';
   else nsrr_ever_smoker = 'not reported';
 
 *current_smoker;
@@ -319,9 +351,9 @@ drop ethnicity;
   format nsrr_current_smoker $100.;
     if currentsmoker = '1' then nsrr_current_smoker = 'yes';
     else if currentsmoker = '0' then nsrr_current_smoker = 'no';
-	else if smokermedhxhp = '2' then nsrr_current_smoker = 'yes';
-	else if smokermedhxhp = '1' then nsrr_current_smoker = 'no';
-	else if smokermedhxhp = '0' then nsrr_current_smoker = 'no';
+  else if smokermedhxhp = '2' then nsrr_current_smoker = 'yes';
+  else if smokermedhxhp = '1' then nsrr_current_smoker = 'no';
+  else if smokermedhxhp = '0' then nsrr_current_smoker = 'no';
     else if currentsmoker = '-1' then nsrr_current_smoker = 'not reported';
     else if currentsmoker = '-2' then nsrr_current_smoker = 'not reported';
   else if currentsmoker = .  then nsrr_current_smoker = 'not reported';
@@ -410,7 +442,9 @@ drop ethnicity;
   
   keep 
     nsrrid
-	visitn
+    visitn
+    fileid
+    site
     nsrr_age
     nsrr_age_gt89
     nsrr_sex
@@ -420,20 +454,21 @@ drop ethnicity;
     nsrr_bp_diastolic
     nsrr_current_smoker
     nsrr_ever_smoker
-	nsrr_ahi_chicago1999
-	nsrr_ttldursp_f1
-	nsrr_phrnumar_f1
-	nsrr_ttleffsp_f1
-	nsrr_ttllatsp_f1
-	nsrr_ttlprdsp_s1sr
-	nsrr_ttldurws_f1
-	nsrr_pctdursp_s1
-	nsrr_pctdursp_s2
-	nsrr_pctdursp_s3
-	nsrr_pctdursp_sr
-	nsrr_ttlprdbd_f1
+  nsrr_ahi_chicago1999
+  nsrr_ttldursp_f1
+  nsrr_phrnumar_f1
+  nsrr_ttleffsp_f1
+  nsrr_ttllatsp_f1
+  nsrr_ttlprdsp_s1sr
+  nsrr_ttldurws_f1
+  nsrr_pctdursp_s1
+  nsrr_pctdursp_s2
+  nsrr_pctdursp_s3
+  nsrr_pctdursp_sr
+  nsrr_ttlprdbd_f1
     ;
 run;
+
 *******************************************************************************;
 * checking harmonized datasets ;
 *******************************************************************************;
@@ -444,20 +479,20 @@ VAR   nsrr_age
     nsrr_bmi
     nsrr_bp_systolic
     nsrr_bp_diastolic
-	nsrr_ahi_chicago1999
-	nsrr_ttldursp_f1
-	nsrr_phrnumar_f1
-	nsrr_phrnumar_f1
-	nsrr_ttleffsp_f1
-	nsrr_ttllatsp_f1
-	nsrr_ttlprdsp_s1sr
-	nsrr_ttldurws_f1
-	nsrr_pctdursp_s1
-	nsrr_pctdursp_s2
-	nsrr_pctdursp_s3
-	nsrr_pctdursp_sr
-	nsrr_ttlprdbd_f1
-	;
+  nsrr_ahi_chicago1999
+  nsrr_ttldursp_f1
+  nsrr_phrnumar_f1
+  nsrr_phrnumar_f1
+  nsrr_ttleffsp_f1
+  nsrr_ttllatsp_f1
+  nsrr_ttlprdsp_s1sr
+  nsrr_ttldurws_f1
+  nsrr_pctdursp_s1
+  nsrr_pctdursp_s2
+  nsrr_pctdursp_s3
+  nsrr_pctdursp_sr
+  nsrr_ttlprdbd_f1
+  ;
 run;
 
 /* Checking categorical variables */

@@ -1,0 +1,6 @@
+{
+  "id": "fileid",
+  "display_name": "APPLES File ID",
+  "description": "Used for linking to Diagnostic Visit PSG files",
+  "type": "identifier"
+}

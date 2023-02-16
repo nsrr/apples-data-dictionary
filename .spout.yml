@@ -4,7 +4,7 @@ charts:
 - chart: gender
   title: Sex
 - chart: ethnicity
-  title: Ethnicity
+  title: Race/Ethnicity
 webservers:
   - name: production
     url: https://sleepdata.org

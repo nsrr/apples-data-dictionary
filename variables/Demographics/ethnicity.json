@@ -1,6 +1,6 @@
 {
   "id": "ethnicity",
-  "display_name": "Ethnicity",
+  "display_name": "Race/Ethnicity",
   "description": "",
   "type": "choices",
   "domain": "ethnicity",
