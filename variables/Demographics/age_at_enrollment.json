@@ -1,0 +1,9 @@
+{
+  "id": "age_at_enrollment",
+  "display_name": "Age at Enrollment",
+  "description": "Retained across all visit rows to ease referencing alongside follow-up visit data. Source: :age:",
+  "type": "integer",
+  "labels": [
+    "SISS"
+  ]
+}

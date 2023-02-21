@@ -198,7 +198,7 @@
       ;
     by appleid;
     
-    if original_fileid ne . and visitn in (1,2,3) then fileid = "apples-" || compress(put(original_fileid,8.));
+    if original_fileid ne . and visitn in (3) then fileid = "apples-" || compress(put(original_fileid,8.));
 
     drop original_fileid /* converted to 'fileid' */ ;
   run;
@@ -211,11 +211,12 @@
     set apples_fileid_in;
     by appleid;
 
-    retain gender2 ethnicity2 site2;
+    retain gender2 ethnicity2 site2 age_at_enrollment;
     if first.appleid then do;
       gender2 = gender;
       ethnicity2 = ethnicity;
       site2 = site;
+      age_at_enrollment = age;
     end;
   run;
 
@@ -255,7 +256,7 @@
 * create harmonized datasets ;
 *******************************************************************************;
 data apples_harmonized;
-  length nsrrid $9. visitn 8. fileid $25. site $6.;
+  length nsrrid $9. visitn 8. fileid $25. site $6. age_at_enrollment 8.;
   set apples_nsrr;
 
   nsrrid=appleid;
@@ -263,7 +264,7 @@ data apples_harmonized;
 *demographics;
 *age;
 *use age;
-  format nsrr_age 8.2;
+  format nsrr_age 8.;
   if age gt 89 then nsrr_age = 90;
   else if age le 89 then nsrr_age = age;
 
@@ -445,6 +446,7 @@ drop ethnicity;
     visitn
     fileid
     site
+    age_at_enrollment
     nsrr_age
     nsrr_age_gt89
     nsrr_sex

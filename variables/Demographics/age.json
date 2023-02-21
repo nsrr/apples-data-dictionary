@@ -1,7 +1,7 @@
 {
   "id": "age",
   "display_name": "Age at Enrollment",
-  "description": "",
+  "description": "Age was only collected at the time of enrollment (visitn=1). Elapsed time between enrollment and follow-up visits was not provided by the data contributor.",
   "type": "integer",
   "labels": [
     "SISS"
