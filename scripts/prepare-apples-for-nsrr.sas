@@ -26,7 +26,7 @@
   *libname applesi "\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20220301-kushida-apples\nsrr-prep\_ids";
 
   *set data dictionary version;
-  %let version = 0.1.0;
+  %let version = 0.1.1.pre;
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20220301-kushida-apples\nsrr-prep\_releases;
@@ -133,6 +133,20 @@
     by appleid;
   run;
 
+
+  proc import datafile="&applessource\extracted_slptime.csv"
+    out=apples_extracted_slptime
+    dbms=csv
+    replace;
+    guessingrows=1100;
+  run;
+
+  proc sort data=apples_extracted_slptime nodupkey;
+    by appleid;
+  run;
+
+
+
   *merge datasets;
   data apples_in;
     length appleid $7. visitn 8. visit $4. fileid $25. site $6.;
@@ -145,6 +159,7 @@
       apples_poms_in
       apples_psg_in
       apples_pvt_in
+	  apples_extracted_slptime
       ;
     by appleid visit;
 
@@ -233,6 +248,9 @@
       site2
       ;
   run;
+
+*******************************************************************************;
+
 
   /* checking;
 
