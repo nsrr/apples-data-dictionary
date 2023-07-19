@@ -1,0 +1,11 @@
+{
+  "id": "nsrr_endtimsp_f1",
+  "display_name": "Sleep offset time from polysomnography",
+  "description": "Harmonized by the NSRR team. Source: :stoffsetp:",
+  "type": "numeric",
+  "units": "hh:mm:ss",
+  "labels": [
+    "endtimsp_f1t1"
+  ],
+  "commonly_used": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "stoffsetp",
+  "display_name": "Sleep offset time (hours of the day) from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "hh:mm:ss",
+  "labels": [
+    "endtimsp_f1t1"
+  ]
+}

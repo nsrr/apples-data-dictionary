@@ -1,0 +1,10 @@
+{
+  "id": "stoffsetp_dec",
+  "display_name": "Sleep offset time from type I polysomnography",
+  "description": "24 hours were added to the original values that occurred after midnight",
+  "type": "numeric",
+  "units": "hh:mm:ss",
+  "labels": [
+    "endtimsp_f1t1"
+  ]
+}

@@ -138,13 +138,18 @@
     out=apples_extracted_slptime
     dbms=csv
     replace;
-    guessingrows=1100;
+    guessingrows=100;
   run;
+
+  data apples_extracted_slptime;
+  set apples_extracted_slptime;
+  	visit = "DX";
+	*format visitn 8.;
+	run;
 
   proc sort data=apples_extracted_slptime nodupkey;
     by appleid;
   run;
-
 
 
   *merge datasets;
@@ -278,6 +283,9 @@ data apples_harmonized;
   set apples_nsrr;
 
   nsrrid=appleid;
+
+nsrr_begtimsp_f1 = stonsetp;
+nsrr_endtimsp_f1 = stoffsetp;
 
 *demographics;
 *age;
@@ -486,6 +494,8 @@ drop ethnicity;
   nsrr_pctdursp_s3
   nsrr_pctdursp_sr
   nsrr_ttlprdbd_f1
+  nsrr_begtimsp_f1
+  nsrr_endtimsp_f1
     ;
 run;
 

@@ -1,7 +1,0 @@
-{
-  "id": "last_slp",
-  "display_name": "Time of last epoch of scored sleep",
-  "description": "",
-  "type": "numeric",
-  "units": "hh:mm"
-}
