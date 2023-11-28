@@ -3,7 +3,7 @@
   "display_name": "Height from Health Log",
   "description": "",
   "type": "numeric",
-  "units": "inches",
+  "units": "inches (in)",
   "labels": [
     "HL"
   ]

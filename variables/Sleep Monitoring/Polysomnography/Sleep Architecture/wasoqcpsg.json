@@ -3,7 +3,7 @@
   "display_name": "Wake After Sleep Onset: the total duration between sleep onset and lights-on/out-bed time while being awake from type I polysomnography",
   "description": "Total amount of time spent awake after going to sleep [(time in bed) - (sleep latency) - (Total Sleep Time (TST))]",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "ttldurws_f1t1",
     "waso"

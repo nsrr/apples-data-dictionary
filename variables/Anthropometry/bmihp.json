@@ -3,7 +3,7 @@
   "display_name": "Body Mass Index from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
-  "units": "kilograms per square meter",
+  "units": "kilograms per meters squared (kg/m2)",
   "labels": [
     "HP"
   ]

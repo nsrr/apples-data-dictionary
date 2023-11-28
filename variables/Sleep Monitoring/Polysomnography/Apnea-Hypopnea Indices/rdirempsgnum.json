@@ -3,6 +3,7 @@
   "display_name": "Total number of respiratory events in REM from type I polysomnography",
   "description": "",
   "type": "numeric",
+  "units": "number of events",
   "labels": [
     "ttlnumap_sr_f1t1"
   ]

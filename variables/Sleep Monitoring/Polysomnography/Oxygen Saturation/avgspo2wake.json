@@ -3,7 +3,7 @@
   "display_name": "Average oxygen saturation while awake from type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "percentage",
+  "units": "percent (%)",
   "labels": [
     "avglvlsa_sw_f1t1"
   ]

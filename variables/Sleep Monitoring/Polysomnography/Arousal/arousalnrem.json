@@ -3,6 +3,7 @@
   "display_name": "Total number of arousals during NREM sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
+  "units": "number of events",
   "labels": [
     "ttlnumar_sn_f1t1"
   ]

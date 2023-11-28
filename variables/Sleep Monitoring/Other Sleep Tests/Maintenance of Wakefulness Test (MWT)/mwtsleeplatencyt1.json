@@ -3,7 +3,7 @@
   "display_name": "Maintenance of Wakefullness Test (MWT) Sleep Latency Trial 1 (min)",
   "description": "",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "MWT",
     "sleep_latency"

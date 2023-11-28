@@ -3,7 +3,7 @@
   "display_name": "AM Diastolic Blood Presure 1st Measurement",
   "description": "",
   "type": "numeric",
-  "units": "millimeters of mercury",
+  "units": "millimeters of mercury (mmHg)",
   "labels": [
     "HL"
   ]

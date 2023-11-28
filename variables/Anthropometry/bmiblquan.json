@@ -3,7 +3,7 @@
   "display_name": "Baseline Body Mass Index ",
   "description": "",
   "type": "numeric",
-  "units": "kilograms per square meter",
+  "units": "kilograms per meters squared (kg/m2)",
   "labels": [
     "HL, HP"
   ]

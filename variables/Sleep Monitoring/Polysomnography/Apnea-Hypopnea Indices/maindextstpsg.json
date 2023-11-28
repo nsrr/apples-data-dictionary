@@ -3,7 +3,7 @@
   "display_name": "Mixed Apnea Index: (Mixed apneas with no oxygen desaturation threshold used and with or without arousal) / hour of sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events per hour",
+  "units": "number of events per hour",
   "labels": [
     "mai_ma0u_f1t1"
   ]

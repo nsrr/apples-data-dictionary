@@ -3,7 +3,7 @@
   "display_name": "Weight (pounds) from Physician's History and Physical Form",
   "description": "",
   "type": "numeric",
-  "units": "pounds",
+  "units": "pounds (lb)",
   "labels": [
     "HP"
   ]

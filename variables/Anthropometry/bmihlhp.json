@@ -3,7 +3,7 @@
   "display_name": "Body Mass Index from Health Log and 4M Physician's History and Physical Form (Health Log is gold standard, use 4M Physician's History and Physical Form if Health Log missing)",
   "description": "",
   "type": "numeric",
-  "units": "kilograms per square meter",
+  "units": "kilograms per meters squared (kg/m2)",
   "labels": [
     "HL/HP"
   ]

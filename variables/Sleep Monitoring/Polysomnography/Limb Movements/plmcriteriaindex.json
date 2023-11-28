@@ -3,7 +3,7 @@
   "display_name": "PLM Index: number of periodic limb movements (PLM) per hour of sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "limb movements per hour",
+  "units": "number of events per hour",
   "labels": [
     "phrnumpl_sp_f1t1"
   ]

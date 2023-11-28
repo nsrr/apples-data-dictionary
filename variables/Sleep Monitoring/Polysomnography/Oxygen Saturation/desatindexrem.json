@@ -2,5 +2,6 @@
   "id": "desatindexrem",
   "display_name": "Oxygen Desaturation Index (REM): Oxygen desaturation associated with respiratory events per hour of REM sleep from type I polysomnography",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "number of events per hour"
 }

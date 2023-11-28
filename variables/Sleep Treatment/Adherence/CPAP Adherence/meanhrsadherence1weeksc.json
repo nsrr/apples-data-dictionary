@@ -3,7 +3,7 @@
   "display_name": "Mean Hours of CPAP Adherence 1 Week Prior to Visit - Denominator is Number of SmartCard Days",
   "description": "",
   "type": "numeric",
-  "units": "hours",
+  "units": "hours (hr)",
   "labels": [
     "Adherence"
   ]
